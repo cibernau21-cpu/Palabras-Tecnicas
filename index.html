@@ -2,32 +2,84 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Diccionario Técnico</title>
+  <title>Diccionario Técnico de la TSDS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="escudo-instituto">
-  <img src="LOGO.png" alt="Escudo del Instituto">
-</div>
-  <div id="bienvenida" class="bienvenida">
-    <h1>Bienvenido al monte de las palabras</h1>
-    <p class="frase-poetica">Aquí cada término es un susurro, cada categoría un sendero.</p>
+
+  <!-- Botón para mostrar presentación -->
+  <div class="boton-presentacion-container">
+    <button id="boton-presentacion" class="boton-presentacion">ℹ️ Presentación</button>
   </div>
 
-  <h1>Diccionario Técnico</h1>
-  <p>Elegí una categoría para comenzar:</p>
-
-  <div class="botones-categorias">
-    <button class="boton-categoria" onclick="filtrarCategoria('arquitectura')">🏛️ Arquitectura</button>
-    <button class="boton-categoria" onclick="filtrarCategoria('informatica')">💻 Informática</button>
-    <button class="boton-categoria" onclick="filtrarCategoria('programacion')">🧠 Programación</button>
+  <!-- Presentación oculta -->
+  <div id="contenido-presentacion" class="presentacion-lateral oculto">
+    <p>
+      Este sitio web es un proyecto colaborativo desarrollado por estudiantes del primer año de la Tecnicatura en Desarrollo de Software del Instituto ISFD, ubicado en San Miguel, Corrientes.
+      Su propósito es reunir y presentar términos técnicos vinculados a la informática, la programación y la arquitectura, con definiciones claras, ejemplos prácticos y traducciones al inglés.
+    </p>
   </div>
 
-  <input type="text" id="buscador" placeholder="Buscar palabra técnica...">
-  <ul id="sugerencias" class="sugerencias-lista"></ul>
-  <div id="resultado"></div>
+  <!-- Encabezado institucional -->
+  <header class="encabezado-institucional">
+    <div class="titulo-izquierda">
+    <h1 class="titulo-animado">Diccionario Técnico de TSDS</h1>
+      <p class="subtitulo">Proyecto académico de la Tecnicatura en Desarrollo de Software</p>
+    </div>
+    <div class="escudo-derecha">
+      <img src="LOGO.png" alt="Escudo del Instituto">
+    </div>
+  </header>
 
+  <!-- Sección de navegación -->
+  <section class="instrucciones">
+    <h2>Explorá el diccionario</h2>
+    <p>Elegí una categoría para comenzar:</p>
+    <div class="botones-categorias">
+      <button class="boton-categoria" onclick="filtrarCategoria('arquitectura')">🏛️ Arquitectura</button>
+      <button class="boton-categoria" onclick="filtrarCategoria('informatica')">💻 Informática</button>
+      <button class="boton-categoria" onclick="filtrarCategoria('programacion')">🧠 Programación</button>
+    </div>
+    <input type="text" id="buscador" placeholder="Buscar palabra técnica...">
+    <ul id="sugerencias" class="sugerencias-lista"></ul>
+    <div id="bienvenida">
+      <p class="frase-poetica">Bienvenido al monte de las palabras.</p>
+    </div>
+    <div id="resultado"></div>
+  </section>
+
+  <!-- Sección de equipo desarrollador -->
+  <section class="equipo-desarrollador">
+    <h2>Equipo desarrollador</h2>
+    <p>
+      Este diccionario fue realizado por estudiantes del primer año de la Tecnicatura en Desarrollo de Software del Instituto ISFD, como parte de una práctica integradora que combina diseño web, programación y documentación técnica.
+    </p>
+  </section>
+
+  <!-- Sección de última actualización -->
+  <section class="ultima-actualizacion">
+    <h2>Última actualización</h2>
+    <p>Este sitio fue actualizado por última vez el <span id="fecha-actualizacion"></span>.</p>
+  </section>
+
+  <!-- Pie institucional -->
+  <footer class="pie-institucional">
+    <p>Instituto ISFD · San Miguel, Corrientes</p>
+    <p>Licencia MIT · Proyecto educativo sin fines de lucro</p>
+  </footer>
+
+  <!-- Scripts -->
   <script src="script.js"></script>
+  <script>
+    const fecha = new Date();
+    const opciones = { year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById('fecha-actualizacion').textContent = fecha.toLocaleDateString('es-AR', opciones);
+
+    document.getElementById('boton-presentacion').addEventListener('click', () => {
+      const contenido = document.getElementById('contenido-presentacion');
+      contenido.classList.toggle('oculto');
+    });
+  </script>
 </body>
 </html>

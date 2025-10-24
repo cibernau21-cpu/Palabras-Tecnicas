@@ -131,9 +131,7 @@ function alternarDetalle(nombre) {
     div.style.display = 'none';
   });
 
-  const frasePoetica = `<p class="frase-poetica">Esta palabra se despliega como un brote del monte.</p>`;
   contenedor.innerHTML = `
-    ${frasePoetica}
     <p><strong>Traducción:</strong> ${palabra.traduccion}</p>
     <p><strong>Definición:</strong> ${palabra.definicion}</p>
     <p><strong>Ejemplo:</strong> ${palabra.ejemplo}</p>

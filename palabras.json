@@ -718,5 +718,138 @@
     "categoria": "programacion",
     "definicion": "Técnica donde se evita evaluar una segunda condición si la primera ya determina el resultado.",
     "ejemplo": "En A AND B, si A es falso, no se evalúa B."
-  }
+  },
+  {
+    "palabra": "Software",
+    "traduccion": "Software",
+    "categoria": "programacion",
+    "definicion": "Conjunto de programas y datos que permiten operar una computadora.",
+    "ejemplo": "El software de edición permite modificar imágenes digitalmente."
+  },
+  {
+    "palabra": "Framework",
+    "traduccion": "Marco de trabajo",
+    "categoria": "programacion",
+    "definicion": "Estructura reutilizable que facilita el desarrollo de software.",
+    "ejemplo": "React es un framework popular para construir interfaces web."
+  },
+  {
+    "palabra": "Algorithm",
+    "traduccion": "Algoritmo",
+    "categoria": "programacion",
+    "definicion": "Conjunto de pasos lógicos para resolver un problema.",
+    "ejemplo": "El algoritmo de búsqueda binaria reduce el tiempo de búsqueda."
+  },
+  {
+    "palabra": "Database",
+    "traduccion": "Base de datos",
+    "categoria": "programacion",
+    "definicion": "Sistema que almacena y organiza información digital.",
+    "ejemplo": "La base de datos guarda los registros de los usuarios."
+  },
+  {
+    "palabra": "SQL",
+    "traduccion": "Lenguaje de consulta estructurado",
+    "categoria": "programacion",
+    "definicion": "Lenguaje para gestionar bases de datos relacionales.",
+    "ejemplo": "Con SQL se puede extraer información de una tabla específica."
+  },
+  {
+    "palabra": "NoSQL",
+    "traduccion": "No relacional",
+    "categoria": "programacion",
+    "definicion": "Tipo de base de datos flexible para datos no estructurados.",
+    "ejemplo": "MongoDB es una base de datos NoSQL muy utilizada en proyectos web."
+  },
+  {
+    "palabra": "Frontend",
+    "traduccion": "Interfaz de usuario",
+    "categoria": "programacion",
+    "definicion": "Parte visual de una aplicación con la que interactúa el usuario.",
+    "ejemplo": "El frontend de la app incluye botones, menús y formularios."
+  },
+  {
+    "palabra": "Backend",
+    "traduccion": "Lógica del servidor",
+    "categoria": "programacion",
+    "definicion": "Parte interna de una aplicación que procesa datos y lógica.",
+    "ejemplo": "El backend gestiona las solicitudes y conecta con la base de datos."
+  },
+  {
+    "palabra": "Bug",
+    "traduccion": "Error",
+    "categoria": "programacion",
+    "definicion": "Fallo o comportamiento inesperado en el código.",
+    "ejemplo": "Un bug impedía que el formulario se enviara correctamente."
+  },
+  {
+    "palabra": "Debugging",
+    "traduccion": "Depuración",
+    "categoria": "programacion",
+    "definicion": "Proceso de identificar y corregir errores en el código.",
+    "ejemplo": "El equipo pasó horas haciendo debugging para resolver el problema."
+  },
+  {
+    "palabra": "Testing",
+    "traduccion": "Pruebas",
+    "categoria": "programacion",
+    "definicion": "Evaluación del software para asegurar su correcto funcionamiento.",
+    "ejemplo": "Las pruebas unitarias verifican que cada función funcione como se espera."
+  },
+  {
+    "palabra": "Deployment",
+    "traduccion": "Despliegue",
+    "categoria": "programacion",
+    "definicion": "Proceso de publicar una aplicación para que esté disponible al público.",
+    "ejemplo": "El despliegue se realizó en un servidor de producción."
+  },
+  {
+    "palabra": "Cybersecurity",
+    "traduccion": "Ciberseguridad",
+    "categoria": "programacion",
+    "definicion": "Prácticas para proteger sistemas y datos digitales.",
+    "ejemplo": "La ciberseguridad previene ataques como el phishing y el malware."
+  },
+  {
+    "palabra": "Script",
+    "traduccion": "Guion o script",
+    "categoria": "programacion",
+    "definicion": "Archivo de código que automatiza tareas o ejecuta instrucciones.",
+    "ejemplo": "El script actualiza automáticamente los datos cada noche."
+  },
+  {
+    "palabra": "React",
+    "traduccion": "React",
+    "categoria": "programacion",
+    "definicion": "Biblioteca de JavaScript para construir interfaces de usuario.",
+    "ejemplo": "React permite crear componentes reutilizables para la web."
+  },
+  {
+    "palabra": "JavaScript",
+    "traduccion": "JavaScript",
+    "categoria": "programacion",
+    "definicion": "Lenguaje de programación para desarrollo web interactivo.",
+    "ejemplo": "JavaScript permite validar formularios sin recargar la página."
+  },
+  {
+    "palabra": "Python",
+    "traduccion": "Python",
+    "categoria": "programacion",
+    "definicion": "Lenguaje de programación versátil usado en ciencia de datos, IA y web.",
+    "ejemplo": "Python se usa para crear modelos de inteligencia artificial."
+  },
+  {
+    "palabra": "Java",
+    "traduccion": "Java",
+    "categoria": "programacion",
+    "definicion": "Lenguaje de programación usado en aplicaciones empresariales y móviles.",
+    "ejemplo": "La app de Android fue desarrollada en Java."
+  },
+  {
+    "palabra": "C++",
+    "traduccion": "C++",
+    "categoria": "programacion",
+    "definicion": "Lenguaje de programación de alto rendimiento para sistemas y videojuegos.",
+    "ejemplo": "C++ se usa para desarrollar motores gráficos en videojuegos."
+    }
 ]
