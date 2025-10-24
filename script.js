@@ -103,7 +103,10 @@ function filtrarCategoria(categoria) {
     btn.classList.toggle('activo', texto.includes(categoria));
   });
 
-  const filtradas = palabrasData.filter(p => p.categoria.toLowerCase() === categoria);
+  // Filtrar y ordenar alfabéticamente
+  const filtradas = palabrasData
+    .filter(p => p.categoria.toLowerCase() === categoria)
+    .sort((a, b) => a.palabra.localeCompare(b.palabra));
 
   if (filtradas.length > 0) {
     resultado.innerHTML = `<ul class="lista-palabras">` + filtradas.map(p => `
@@ -116,26 +119,35 @@ function filtrarCategoria(categoria) {
     resultado.innerHTML = `<p>No hay palabras en la categoría "${categoria}".</p>`;
   }
 }
-
 // Alternar despliegue de palabra
 function alternarDetalle(nombre) {
-  const todos = document.querySelectorAll('.detalle-palabra');
   const palabra = palabrasData.find(p => p.palabra.toLowerCase() === nombre.toLowerCase());
   const contenedor = document.getElementById(`detalle-${nombre}`);
 
   if (!palabra || !contenedor) return;
 
-  todos.forEach(div => {
-    div.innerHTML = '';
-    div.classList.remove('visible');
-    div.style.display = 'none';
-  });
+  const estaVisible = contenedor.classList.contains('visible');
 
-  contenedor.innerHTML = `
-    <p><strong>Traducción:</strong> ${palabra.traduccion}</p>
-    <p><strong>Definición:</strong> ${palabra.definicion}</p>
-    <p><strong>Ejemplo:</strong> ${palabra.ejemplo}</p>
-  `;
-  contenedor.classList.add('visible');
-  contenedor.style.display = 'block';
+  if (estaVisible) {
+    // Si ya está visible, lo ocultamos
+    contenedor.innerHTML = '';
+    contenedor.classList.remove('visible');
+    contenedor.style.display = 'none';
+  } else {
+    // Ocultamos todos los demás
+    document.querySelectorAll('.detalle-palabra').forEach(div => {
+      div.innerHTML = '';
+      div.classList.remove('visible');
+      div.style.display = 'none';
+    });
+
+    // Mostramos el nuevo
+    contenedor.innerHTML = `
+      <p><strong>Traducción:</strong> ${palabra.traduccion}</p>
+      <p><strong>Definición:</strong> ${palabra.definicion}</p>
+      <p><strong>Ejemplo:</strong> ${palabra.ejemplo}</p>
+    `;
+    contenedor.classList.add('visible');
+    contenedor.style.display = 'block';
+  }
 }
