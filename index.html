@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Diccionario Técnico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="escudo-instituto">
+  <img src="LOGO.png" alt="Escudo del Instituto">
+</div>
+  <div id="bienvenida" class="bienvenida">
+    <h1>Bienvenido al monte de las palabras</h1>
+    <p class="frase-poetica">Aquí cada término es un susurro, cada categoría un sendero.</p>
+  </div>
+
+  <h1>Diccionario Técnico</h1>
+  <p>Elegí una categoría para comenzar:</p>
+
+  <div class="botones-categorias">
+    <button class="boton-categoria" onclick="filtrarCategoria('arquitectura')">🏛️ Arquitectura</button>
+    <button class="boton-categoria" onclick="filtrarCategoria('informatica')">💻 Informática</button>
+    <button class="boton-categoria" onclick="filtrarCategoria('programacion')">🧠 Programación</button>
+  </div>
+
+  <input type="text" id="buscador" placeholder="Buscar palabra técnica...">
+  <ul id="sugerencias" class="sugerencias-lista"></ul>
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

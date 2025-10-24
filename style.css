@@ -1,0 +1,205 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  max-width: 700px;
+  margin: auto;
+  color: #000000;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #e7b21f;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.botones-categorias {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.botones-categorias button {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #79ddd5cc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botones-categorias button:hover {
+  background-color: #d8d6b5;
+}
+
+#buscador {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#resultado {
+  background: #e9e7e7cc;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.botones-categorias button.activo {
+  background-color: #78aece;
+  color: #000000;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+body.arquitectura {
+  background-image: url('fondo-arquitectura.jpg');
+}
+
+body.informatica {
+  background-image: url('fondo-informatica.avif');
+}
+
+body.programacion {
+  background-image: url('fondo-programacion.jpg');
+}
+.detalle-palabra {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  font-size: 0.95rem;
+  color: #000000;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease, opacity 0.6s ease;
+  opacity: 0;
+}
+
+.detalle-palabra.visible {
+  max-height: 500px; /* suficiente para el contenido */
+  opacity: 1;
+}
+.frase-poetica {
+  font-style: italic;
+  color: #556b2f;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+.resultado-palabra {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.resultado-palabra.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.frase-poetica {
+  font-style: italic;
+  color: #556b2f;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+.bienvenida {
+  text-align: center;
+  padding: 3rem 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 2s ease forwards;
+}
+
+.bienvenida h1 {
+  font-size: 2rem;
+  color: #110f0f;
+  margin-bottom: 0.5rem;
+}
+
+.frase-poetica {
+  font-style: italic;
+  color: #7ea836;
+  opacity: 0.8;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.sugerencias-lista {
+  list-style: none;
+  margin-top: 0.5rem;
+  padding: 0;
+  border: 1px solid #eeecec;
+  border-radius: 4px;
+  max-width: 400px;
+  background-color: #e2e0e0;
+}
+
+.sugerencias-lista li {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid #000000;
+  transition: background-color 0.3s ease;
+}
+
+.sugerencias-lista li:hover {
+  background-color: #aacacf;
+}
+
+.traduccion {
+  color: #556b2f;
+  font-style: italic;
+}
+
+.sin-resultados {
+  padding: 0.5rem;
+  color: #999;
+  font-style: italic;
+}
+.resultado-palabra.visible {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.resultado-palabra.oculto {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.detalle-palabra {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.detalle-palabra.visible {
+  opacity: 1;
+}
+.escudo-instituto {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  z-index: 1000;
+  opacity: 0.9;
+}
+
+.escudo-instituto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

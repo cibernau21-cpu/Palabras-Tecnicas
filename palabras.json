@@ -1,0 +1,722 @@
+[
+  {
+    "palabra": "periférico",
+    "traduccion": "peripheral",
+    "categoria": "informatica",
+    "definicion": "Dispositivo externo que se conecta a la computadora para ampliar sus funciones.",
+    "ejemplo": "El mouse es un periférico de entrada que traduce el movimiento en coordenadas digitales."
+  },
+  {
+    "palabra": "procesador",
+    "traduccion": "processor",
+    "categoria": "informatica",
+    "definicion": "Unidad central que ejecuta instrucciones y coordina las operaciones del sistema.",
+    "ejemplo": "El procesador actúa como el corazón lógico de la computadora."
+  },
+  {
+    "palabra": "memoria RAM",
+    "traduccion": "RAM memory",
+    "categoria": "informatica",
+    "definicion": "Memoria volátil que almacena datos temporales mientras el sistema está encendido.",
+    "ejemplo": "Al abrir un programa, sus datos se cargan en la memoria RAM."
+  },
+  {
+    "palabra": "almacenamiento",
+    "traduccion": "storage",
+    "categoria": "informatica",
+    "definicion": "Espacio físico o virtual donde se guardan datos de forma permanente o temporal.",
+    "ejemplo": "Un disco sólido ofrece almacenamiento rápido y silencioso."
+  },
+  {
+    "palabra": "archivo",
+    "traduccion": "file",
+    "categoria": "informatica",
+    "definicion": "Unidad de información digital que contiene datos estructurados o no estructurados.",
+    "ejemplo": "El archivo 'informe.pdf' guarda el trabajo final del estudiante."
+  },
+  {
+    "palabra": "interfaz de usuario",
+    "traduccion": "user interface",
+    "categoria": "informatica",
+    "definicion": "Conjunto de elementos visuales y funcionales que permiten la interacción con el sistema.",
+    "ejemplo": "Los íconos y menús forman parte de la interfaz de usuario."
+  },
+  {
+    "palabra": "actualización",
+    "traduccion": "update",
+    "categoria": "informatica",
+    "definicion": "Proceso de mejora o corrección de software mediante nuevas versiones.",
+    "ejemplo": "La actualización incluye parches de seguridad y mejoras de rendimiento."
+  },
+  {
+    "palabra": "virus informático",
+    "traduccion": "computer virus",
+    "categoria": "informatica",
+    "definicion": "Programa malicioso que altera el funcionamiento del sistema sin consentimiento.",
+    "ejemplo": "El virus se propagó por correo electrónico y afectó varios equipos."
+  },
+  {
+    "palabra": "código fuente",
+    "traduccion": "source code",
+    "categoria": "informatica",
+    "definicion": "Conjunto de instrucciones escritas por el programador para definir el comportamiento de un software.",
+    "ejemplo": "El código fuente del sitio web está escrito en HTML y JavaScript."
+  },
+  {
+    "palabra": "entorno virtual",
+    "traduccion": "virtual environment",
+    "categoria": "informatica",
+    "definicion": "Espacio simulado que permite ejecutar procesos aislados del sistema principal.",
+    "ejemplo": "Creamos un entorno virtual para probar el programa sin afectar el sistema real."
+  },
+  {
+    "palabra": "sistema operativo",
+    "traduccion": "operating system",
+    "categoria": "informatica",
+    "definicion": "Software que gestiona los recursos del hardware y permite la interacción con el usuario.",
+    "ejemplo": "Windows 11 es un sistema operativo con interfaz gráfica y multitarea."
+  },
+  {
+    "palabra": "hardware",
+    "traduccion": "hardware",
+    "categoria": "informatica",
+    "definicion": "Conjunto de componentes físicos que conforman un sistema informático.",
+    "ejemplo": "El teclado y el disco rígido son partes del hardware."
+  },
+  {
+    "palabra": "software",
+    "traduccion": "software",
+    "categoria": "informatica",
+    "definicion": "Conjunto de programas y rutinas que permiten realizar tareas en una computadora.",
+    "ejemplo": "Photoshop es un software de edición de imágenes."
+  },
+  {
+    "palabra": "bit",
+    "traduccion": "bit",
+    "categoria": "informatica",
+    "definicion": "Unidad mínima de información digital, que puede tener valor 0 o 1.",
+    "ejemplo": "Un byte está compuesto por 8 bits."
+  },
+  {
+    "palabra": "red informatica",
+    "traduccion": "computer network",
+    "categoria": "informatica",
+    "definicion": "Conjunto de dispositivos conectados para compartir información y recursos.",
+    "ejemplo": "Una red doméstica permite conectar computadoras, impresoras y teléfonos."
+  },
+  {
+    "palabra": "nube",
+    "traduccion": "cloud",
+    "categoria": "informatica",
+    "definicion": "Modelo de almacenamiento y procesamiento de datos en servidores remotos accesibles por internet.",
+    "ejemplo": "Google Drive permite guardar archivos en la nube."
+  },
+  {
+    "palabra": "base de datos",
+    "traduccion": "database",
+    "categoria": "informatica",
+    "definicion": "Sistema organizado para almacenar, gestionar y recuperar información.",
+    "ejemplo": "MySQL es un gestor de bases de datos relacional."
+  },
+  {
+    "palabra": "algoritmo",
+    "traduccion": "algorithm",
+    "categoria": "informatica",
+    "definicion": "Conjunto de pasos ordenados para resolver un problema o realizar una tarea.",
+    "ejemplo": "Un algoritmo de búsqueda permite encontrar datos en una lista."
+  },
+  {
+    "palabra": "interfaz gráfica",
+    "traduccion": "graphical interface",
+    "categoria": "informatica",
+    "definicion": "Sistema visual que permite al usuario interactuar con el software mediante íconos y ventanas.",
+    "ejemplo": "El escritorio de Windows es una interfaz gráfica amigable."
+  },
+  {
+    "palabra": "seguridad informática",
+    "traduccion": "cybersecurity",
+    "categoria": "informatica",
+    "definicion": "Conjunto de prácticas y tecnologías para proteger sistemas y datos digitales.",
+    "ejemplo": "Usar contraseñas seguras es parte de la seguridad informática."
+  },
+  { "palabra": "resistencia",
+    "traduccion": "resistor",
+    "categoria": "informatica",
+    "definicion": "Componente que limita el flujo de corriente eléctrica.",
+    "ejemplo": "La resistencia de 220 ohm se usa para proteger el LED."
+  },
+  {
+    "palabra": "masa",
+    "traduccion": "ground",
+    "categoria": "informatica",
+    "definicion": "Referencia de voltaje cero en un circuito.",
+    "ejemplo": "Conectá el negativo del capacitor a masa."
+  },
+  {
+    "palabra": "unidad central de procesamiento",
+    "traduccion": "central processing unit",
+    "categoria": "arquitectura",
+    "definicion": "Componente principal que ejecuta instrucciones y coordina las operaciones del sistema.",
+    "ejemplo": "La CPU interpreta y ejecuta el código del programa paso a paso."
+  },
+  {
+    "palabra": "memoria caché",
+    "traduccion": "cache memory",
+    "categoria": "arquitectura",
+    "definicion": "Memoria rápida que almacena datos temporales para acelerar el acceso del procesador.",
+    "ejemplo": "La caché guarda instrucciones que se usan con frecuencia para mejorar el rendimiento."
+  },
+  {
+    "palabra": "bus de datos",
+    "traduccion": "data bus",
+    "categoria": "arquitectura",
+    "definicion": "Canal que transporta información entre los componentes internos de la computadora.",
+    "ejemplo": "El bus de datos conecta la CPU con la memoria y los periféricos."
+  },
+  {
+    "palabra": "registro",
+    "traduccion": "register",
+    "categoria": "arquitectura",
+    "definicion": "Pequeña unidad de almacenamiento dentro del procesador que guarda datos temporales.",
+    "ejemplo": "El registro almacena el resultado de una operación aritmética antes de enviarlo a la memoria."
+  },
+  {
+    "palabra": "ciclo de instrucción",
+    "traduccion": "instruction cycle",
+    "categoria": "arquitectura",
+    "definicion": "Secuencia de pasos que realiza la CPU para ejecutar una instrucción.",
+    "ejemplo": "El ciclo incluye buscar, decodificar, ejecutar y almacenar el resultado."
+  },
+  {
+    "palabra": "arquitectura Von Neumann",
+    "traduccion": "Von Neumann architecture",
+    "categoria": "arquitectura",
+    "definicion": "Modelo que organiza la computadora en unidades de procesamiento, memoria y entrada/salida.",
+    "ejemplo": "La mayoría de las computadoras actuales siguen la arquitectura Von Neumann."
+  },
+  {
+    "palabra": "unidad de control",
+    "traduccion": "control unit",
+    "categoria": "arquitectura",
+    "definicion": "Parte de la CPU que dirige el flujo de datos y coordina las operaciones internas.",
+    "ejemplo": "La unidad de control decide qué instrucciones ejecutar y en qué orden."
+  },
+  {
+    "palabra": "unidad aritmético lógica",
+    "traduccion": "arithmetic logic unit",
+    "categoria": "arquitectura",
+    "definicion": "Componente de la CPU que realiza operaciones matemáticas y lógicas.",
+    "ejemplo": "La ALU calcula sumas, comparaciones y operaciones booleanas."
+  },
+  {
+    "palabra": "frecuencia de reloj",
+    "traduccion": "clock frequency",
+    "categoria": "arquitectura",
+    "definicion": "Velocidad con la que el procesador ejecuta instrucciones, medida en hertz.",
+    "ejemplo": "Un procesador de 3.2 GHz realiza 3.200 millones de ciclos por segundo."
+  },
+  {
+    "palabra": "multinúcleo",
+    "traduccion": "multicore",
+    "categoria": "arquitectura",
+    "definicion": "Procesador que contiene dos o más núcleos independientes para ejecutar tareas en paralelo.",
+    "ejemplo": "Un CPU multinúcleo permite ejecutar varios procesos simultáneamente."
+  },
+  {
+    "palabra": "energía eléctrica",
+    "traduccion": "electrical energy",
+    "categoria": "arquitectura",
+    "definicion": "Forma de energía que alimenta los componentes electrónicos de una computadora.",
+    "ejemplo": "La energía eléctrica fluye desde la fuente de alimentación hacia la placa madre."
+  },
+  {
+    "palabra": "corriente continua",
+    "traduccion": "direct current",
+    "categoria": "arquitectura",
+    "definicion": "Tipo de corriente eléctrica que fluye en una sola dirección, utilizada en circuitos digitales.",
+    "ejemplo": "Los componentes internos del CPU funcionan con corriente continua."
+  },
+  {
+    "palabra": "voltaje",
+    "traduccion": "voltage",
+    "categoria": "arquitectura",
+    "definicion": "Diferencia de potencial eléctrico que impulsa el flujo de corriente en un circuito.",
+    "ejemplo": "El procesador requiere un voltaje específico para operar de forma estable."
+  },
+  {
+    "palabra": "potencia eléctrica",
+    "traduccion": "electric power",
+    "categoria": "arquitectura",
+    "definicion": "Cantidad de energía consumida por unidad de tiempo, medida en vatios.",
+    "ejemplo": "Una fuente de 500W puede alimentar varios componentes simultáneamente."
+  },
+  {
+    "palabra": "resistencia eléctrica",
+    "traduccion": "electrical resistance",
+    "categoria": "arquitectura",
+    "definicion": "Oposición al flujo de corriente en un material, que genera pérdida de energía en forma de calor.",
+    "ejemplo": "Los cables con alta resistencia pueden provocar sobrecalentamiento."
+  },
+  {
+    "palabra": "eficiencia térmica",
+    "traduccion": "thermal efficiency",
+    "categoria": "arquitectura",
+    "definicion": "Capacidad de un sistema para disipar el calor generado por el consumo energético.",
+    "ejemplo": "Los disipadores mejoran la eficiencia térmica del procesador."
+  },
+  {
+    "palabra": "fuente de alimentación",
+    "traduccion": "power supply",
+    "categoria": "arquitectura",
+    "definicion": "Dispositivo que convierte la corriente alterna en corriente continua para alimentar los componentes.",
+    "ejemplo": "La fuente ATX entrega voltajes regulados a la placa madre y periféricos."
+  },
+  {
+    "palabra": "circuito eléctrico",
+    "traduccion": "electric circuit",
+    "categoria": "arquitectura",
+    "definicion": "Camino cerrado por el que circula la corriente eléctrica para alimentar dispositivos.",
+    "ejemplo": "El circuito de la placa madre distribuye energía a cada componente."
+  },
+  {
+    "palabra": "calor residual",
+    "traduccion": "residual heat",
+    "categoria": "arquitectura",
+    "definicion": "Energía térmica no aprovechada que se libera durante el funcionamiento de los componentes.",
+    "ejemplo": "El calor residual del CPU se disipa mediante ventiladores y pasta térmica."
+  },
+  {
+    "palabra": "rendimiento energético",
+    "traduccion": "energy performance",
+    "categoria": "arquitectura",
+    "definicion": "Relación entre la energía consumida y la capacidad de procesamiento obtenida.",
+    "ejemplo": "Un sistema con buen rendimiento energético logra más con menos consumo."
+  },
+  {
+    "palabra": "variable",
+    "traduccion": "variable",
+    "categoria": "programacion",
+    "definicion": "Espacio en memoria que almacena un valor que puede cambiar.",
+    "ejemplo": "La variable 'x' se incrementa en cada iteración."
+  },
+  {
+    "palabra": "variable",
+    "traduccion": "variable",
+    "categoria": "programacion",
+    "definicion": "Elemento que almacena un valor que puede cambiar durante la ejecución de un programa.",
+    "ejemplo": "let edad = 25;"
+  },
+  {
+    "palabra": "función",
+    "traduccion": "function",
+    "categoria": "programacion",
+    "definicion": "Bloque de código que realiza una tarea específica y puede ser reutilizado.",
+    "ejemplo": "function saludar() { console.log('Hola'); }"
+  },
+  {
+    "palabra": "condición",
+    "traduccion": "condition",
+    "categoria": "programacion",
+    "definicion": "Expresión que se evalúa como verdadera o falsa para controlar el flujo del programa.",
+    "ejemplo": "if (edad > 18) { console.log('Mayor de edad'); }"
+  },
+  {
+    "palabra": "bucle",
+    "traduccion": "loop",
+    "categoria": "programacion",
+    "definicion": "Estructura que repite un bloque de código mientras se cumpla una condición.",
+    "ejemplo": "for (let i = 0; i < 5; i++) { console.log(i); }"
+  },
+  {
+    "palabra": "objeto",
+    "traduccion": "object",
+    "categoria": "programacion",
+    "definicion": "Entidad que agrupa propiedades y métodos relacionados.",
+    "ejemplo": "let persona = { nombre: 'Ana', edad: 30 };"
+  },
+  {
+    "palabra": "array",
+    "traduccion": "array",
+    "categoria": "programacion",
+    "definicion": "Colección ordenada de elementos que se acceden por índice.",
+    "ejemplo": "let frutas = ['manzana', 'banana', 'pera'];"
+  },
+  {
+    "palabra": "clase",
+    "traduccion": "class",
+    "categoria": "programacion",
+    "definicion": "Plantilla para crear objetos con propiedades y métodos definidos.",
+    "ejemplo": "class Animal { constructor(nombre) { this.nombre = nombre; } }"
+  },
+  {
+    "palabra": "evento",
+    "traduccion": "event",
+    "categoria": "programacion",
+    "definicion": "Acción que ocurre en el sistema y puede ser detectada por el programa.",
+    "ejemplo": "button.addEventListener('click', saludar);"
+  },
+  {
+    "palabra": "interfaz",
+    "traduccion": "interface",
+    "categoria": "programacion",
+    "definicion": "Contrato que define qué métodos y propiedades debe tener una clase.",
+    "ejemplo": "interface Vehiculo { encender(): void; }"
+  },
+  {
+    "palabra": "compilador",
+    "traduccion": "compiler",
+    "categoria": "programacion",
+    "definicion": "Programa que traduce código fuente a lenguaje máquina.",
+    "ejemplo": "El compilador convierte el código C++ en ejecutable."
+  } ,
+  {
+    "palabra": "depuración",
+    "traduccion": "debugging",
+    "categoria": "programacion",
+    "definicion": "Proceso de identificar y corregir errores en el código fuente.",
+    "ejemplo": "Usamos la consola para depurar el comportamiento inesperado del programa."
+  },
+  {
+    "palabra": "compilación",
+    "traduccion": "compilation",
+    "categoria": "programacion",
+    "definicion": "Transformación del código fuente en un archivo ejecutable por la máquina.",
+    "ejemplo": "El compilador traduce el código C++ a lenguaje máquina."
+  },
+  {
+    "palabra": "lenguaje de programación",
+    "traduccion": "programming language",
+    "categoria": "programacion",
+    "definicion": "Sistema de escritura estructurada que permite crear instrucciones para una computadora.",
+    "ejemplo": "Python es un lenguaje de programación interpretado y de alto nivel."
+  },
+  {
+    "palabra": "comentario",
+    "traduccion": "comment",
+    "categoria": "programacion",
+    "definicion": "Texto dentro del código que explica su funcionamiento sin afectar la ejecución.",
+    "ejemplo": "// Este comentario describe la función que sigue."
+  },
+  {
+    "palabra": "identación",
+    "traduccion": "indentation",
+    "categoria": "programacion",
+    "definicion": "Espaciado visual que organiza el código y facilita su lectura.",
+    "ejemplo": "La identación en Python es obligatoria para definir bloques de código."
+  },
+  {
+    "palabra": "recursividad",
+    "traduccion": "recursion",
+    "categoria": "programacion",
+    "definicion": "Técnica en la que una función se llama a sí misma para resolver un problema.",
+    "ejemplo": "La función factorial se puede resolver de forma recursiva."
+  },
+  {
+    "palabra": "parámetro",
+    "traduccion": "parameter",
+    "categoria": "programacion",
+    "definicion": "Valor que se pasa a una función para personalizar su comportamiento.",
+    "ejemplo": "La función saludar(nombre) recibe un parámetro llamado 'nombre'."
+  },
+  {
+    "palabra": "retorno",
+    "traduccion": "return",
+    "categoria": "programacion",
+    "definicion": "Valor que una función entrega como resultado de su ejecución.",
+    "ejemplo": "La función suma retorna el resultado de a + b."
+  },
+  {
+    "palabra": "estructura de control",
+    "traduccion": "control structure",
+    "categoria": "programacion",
+    "definicion": "Instrucción que define el flujo de ejecución del programa.",
+    "ejemplo": "El condicional if es una estructura de control que evalúa una condición."
+  },
+  {
+    "palabra": "biblioteca",
+    "traduccion": "library",
+    "categoria": "programacion",
+    "definicion": "Conjunto de funciones y recursos reutilizables que se pueden incorporar al código.",
+    "ejemplo": "La biblioteca 'math' permite realizar cálculos matemáticos avanzados."
+  },
+  {
+    "palabra": "asincronía",
+    "traduccion": "asynchrony",
+    "categoria": "programacion",
+    "definicion": "Modelo de ejecución donde las tareas no se bloquean entre sí y pueden completarse en distintos momentos.",
+    "ejemplo": "La función fetch opera de forma asíncrona para obtener datos sin detener el flujo del programa."
+  },
+  {
+    "palabra": "promesa",
+    "traduccion": "promise",
+    "categoria": "programacion",
+    "definicion": "Objeto que representa el resultado futuro de una operación asincrónica.",
+    "ejemplo": "fetch devuelve una promesa que se resuelve cuando llegan los datos."
+  },
+  {
+    "palabra": "callback",
+    "traduccion": "callback",
+    "categoria": "programacion",
+    "definicion": "Función que se pasa como argumento a otra y se ejecuta después de completar una tarea.",
+    "ejemplo": "setTimeout recibe un callback que se ejecuta tras un retraso."
+  },
+  {
+    "palabra": "programación orientada a objetos",
+    "traduccion": "object-oriented programming",
+    "categoria": "programacion",
+    "definicion": "Paradigma que organiza el código en objetos que combinan datos y comportamientos.",
+    "ejemplo": "Creamos una clase 'Vehículo' con propiedades y métodos para simular su funcionamiento."
+  },
+  {
+    "palabra": "herencia",
+    "traduccion": "inheritance",
+    "categoria": "programacion",
+    "definicion": "Mecanismo que permite a una clase adquirir propiedades y métodos de otra.",
+    "ejemplo": "La clase 'Auto' hereda de 'Vehículo' y agrega nuevas funciones."
+  },
+  {
+    "palabra": "encapsulamiento",
+    "traduccion": "encapsulation",
+    "categoria": "programacion",
+    "definicion": "Principio que protege los datos internos de un objeto, permitiendo acceder solo mediante métodos definidos.",
+    "ejemplo": "Usamos métodos get y set para controlar el acceso a las propiedades privadas."
+  },
+  {
+    "palabra": "polimorfismo",
+    "traduccion": "polymorphism",
+    "categoria": "programacion",
+    "definicion": "Capacidad de diferentes objetos de responder a la misma acción de manera distinta.",
+    "ejemplo": "El método 'mover()' se comporta diferente en 'Auto' y 'Avión'."
+  },
+  {
+    "palabra": "programación funcional",
+    "traduccion": "functional programming",
+    "categoria": "programacion",
+    "definicion": "Paradigma que trata la computación como evaluación de funciones puras sin efectos secundarios.",
+    "ejemplo": "Usamos map y filter para transformar listas sin modificar el estado original."
+  },
+  {
+    "palabra": "estado",
+    "traduccion": "state",
+    "categoria": "programacion",
+    "definicion": "Conjunto de valores que describen la situación actual de un programa o componente.",
+    "ejemplo": "El estado de una aplicación cambia cuando el usuario interactúa con la interfaz."
+  },
+  {
+    "palabra": "evento",
+    "traduccion": "event",
+    "categoria": "programacion",
+    "definicion": "Acción que ocurre en el sistema y puede ser detectada para ejecutar una respuesta.",
+    "ejemplo": "El evento 'click' activa una función que muestra un mensaje."
+  },
+  {
+    "palabra": "array",
+    "traduccion": "array",
+    "categoria": "programacion",
+    "definicion": "Colección ordenada de elementos que se acceden por índice.",
+    "ejemplo": "let frutas = ['manzana', 'banana', 'pera'];"
+  },
+  {
+    "palabra": "lista enlazada",
+    "traduccion": "linked list",
+    "categoria": "programacion",
+    "definicion": "Estructura donde cada elemento apunta al siguiente, formando una cadena dinámica.",
+    "ejemplo": "Cada nodo contiene un valor y una referencia al siguiente nodo."
+  },
+  {
+    "palabra": "pila",
+    "traduccion": "stack",
+    "categoria": "programacion",
+    "definicion": "Colección de elementos con acceso tipo LIFO: el último en entrar es el primero en salir.",
+    "ejemplo": "Usamos una pila para deshacer acciones en un editor de texto."
+  },
+  {
+    "palabra": "cola",
+    "traduccion": "queue",
+    "categoria": "programacion",
+    "definicion": "Colección de elementos con acceso tipo FIFO: el primero en entrar es el primero en salir.",
+    "ejemplo": "Una cola gestiona las tareas pendientes en un sistema operativo."
+  },
+  {
+    "palabra": "árbol binario",
+    "traduccion": "binary tree",
+    "categoria": "programacion",
+    "definicion": "Estructura jerárquica donde cada nodo tiene como máximo dos hijos.",
+    "ejemplo": "Un árbol binario permite organizar datos para búsquedas eficientes."
+  },
+  {
+    "palabra": "grafo",
+    "traduccion": "graph",
+    "categoria": "programacion",
+    "definicion": "Conjunto de nodos conectados por aristas, útil para representar relaciones complejas.",
+    "ejemplo": "Un grafo puede modelar redes sociales o rutas de transporte."
+  },
+  {
+    "palabra": "tabla hash",
+    "traduccion": "hash table",
+    "categoria": "programacion",
+    "definicion": "Estructura que asocia claves con valores mediante una función de dispersión.",
+    "ejemplo": "Una tabla hash permite acceder rápidamente a datos por su clave."
+  },
+  {
+    "palabra": "heap",
+    "traduccion": "heap",
+    "categoria": "programacion",
+    "definicion": "Árbol especializado que mantiene el orden de prioridad entre sus elementos.",
+    "ejemplo": "Un heap se usa para implementar colas de prioridad."
+  },
+  {
+    "palabra": "registro",
+    "traduccion": "record",
+    "categoria": "programacion",
+    "definicion": "Conjunto de campos agrupados que representan una entidad con múltiples atributos.",
+    "ejemplo": "Un registro de usuario puede tener nombre, edad y correo electrónico."
+  },
+  {
+    "palabra": "conjunto",
+    "traduccion": "set",
+    "categoria": "programacion",
+    "definicion": "Colección de elementos únicos sin orden específico.",
+    "ejemplo": "Un conjunto puede almacenar etiquetas sin repetir ninguna."
+  },
+  {
+    "palabra": "algoritmo",
+    "traduccion": "algorithm",
+    "categoria": "programacion",
+    "definicion": "Conjunto ordenado de pasos que resuelven un problema o realizan una tarea.",
+    "ejemplo": "El algoritmo de ordenamiento organiza los datos de menor a mayor."
+  },
+  {
+    "palabra": "condicional",
+    "traduccion": "conditional",
+    "categoria": "programacion",
+    "definicion": "Estructura que permite ejecutar acciones según se cumpla o no una condición.",
+    "ejemplo": "Si la temperatura es mayor a 30, mostramos 'Hace calor'."
+  },
+  {
+    "palabra": "bucle",
+    "traduccion": "loop",
+    "categoria": "programacion",
+    "definicion": "Estructura que repite una acción mientras se cumpla una condición.",
+    "ejemplo": "El bucle while repite el código mientras la variable sea menor a 10."
+  },
+  {
+    "palabra": "variable",
+    "traduccion": "variable",
+    "categoria": "programacion",
+    "definicion": "Espacio de memoria que almacena un valor que puede cambiar durante la ejecución.",
+    "ejemplo": "Declaramos la variable 'edad' y le asignamos el valor 25."
+  },
+  {
+    "palabra": "operador lógico",
+    "traduccion": "logical operator",
+    "categoria": "programacion",
+    "definicion": "Símbolo que permite combinar condiciones: AND, OR, NOT.",
+    "ejemplo": "Si edad > 18 && país == 'Argentina', permitimos el acceso."
+  },
+  {
+    "palabra": "estructura secuencial",
+    "traduccion": "sequential structure",
+    "categoria": "programacion",
+    "definicion": "Bloque de instrucciones que se ejecutan una tras otra, sin saltos.",
+    "ejemplo": "Primero se calcula el total, luego se imprime el resultado."
+  },
+  {
+    "palabra": "estructura condicional",
+    "traduccion": "conditional structure",
+    "categoria": "programacion",
+    "definicion": "Bloque que toma decisiones según el valor de una condición.",
+    "ejemplo": "Si el usuario está logueado, mostramos su perfil; si no, mostramos el login."
+  },
+  {
+    "palabra": "estructura repetitiva",
+    "traduccion": "iterative structure",
+    "categoria": "programacion",
+    "definicion": "Bloque que repite instrucciones mientras se cumpla una condición.",
+    "ejemplo": "El for recorre cada elemento de la lista y lo imprime."
+  },
+  {
+    "palabra": "diagrama de flujo",
+    "traduccion": "flowchart",
+    "categoria": "programacion",
+    "definicion": "Representación gráfica de un algoritmo usando símbolos conectados por flechas.",
+    "ejemplo": "El diagrama de flujo muestra el camino lógico desde el inicio hasta el fin."
+  },
+  {
+    "palabra": "entrada",
+    "traduccion": "input",
+    "categoria": "programacion",
+    "definicion": "Dato que el programa recibe para procesar.",
+    "ejemplo": "Solicitamos al usuario que ingrese su nombre como entrada."
+  },
+  {
+    "palabra": "salida",
+    "traduccion": "output",
+    "categoria": "programacion",
+    "definicion": "Resultado que el programa entrega tras procesar los datos.",
+    "ejemplo": "La salida del programa es el mensaje 'Bienvenido, Efraín'."
+  },
+  {
+    "palabra": "AND",
+    "traduccion": "AND",
+    "categoria": "programacion",
+    "definicion": "Operador lógico que devuelve verdadero solo si ambas condiciones son verdaderas.",
+    "ejemplo": "Si edad > 18 AND país == 'Argentina', se permite el acceso."
+  },
+  {
+    "palabra": "OR",
+    "traduccion": "OR",
+    "categoria": "programacion",
+    "definicion": "Operador lógico que devuelve verdadero si al menos una condición es verdadera.",
+    "ejemplo": "Si usuario == 'admin' OR usuario == 'invitado', se muestra el panel."
+  },
+  {
+    "palabra": "NOT",
+    "traduccion": "NOT",
+    "categoria": "programacion",
+    "definicion": "Operador lógico que invierte el valor de verdad de una condición.",
+    "ejemplo": "Si NOT conectado, mostramos el mensaje 'Sin conexión'."
+  },
+  {
+    "palabra": "XOR",
+    "traduccion": "XOR",
+    "categoria": "programacion",
+    "definicion": "Operador lógico exclusivo: devuelve verdadero si solo una condición es verdadera, pero no ambas.",
+    "ejemplo": "Si A XOR B es verdadero, significa que solo uno de los dos es verdadero."
+  },
+  {
+    "palabra": "comparación",
+    "traduccion": "comparison",
+    "categoria": "programacion",
+    "definicion": "Evaluación entre dos valores usando operadores como ==, !=, >, <, >=, <=.",
+    "ejemplo": "Si temperatura >= 30, mostramos 'Hace calor'."
+  },
+  {
+    "palabra": "expresión lógica",
+    "traduccion": "logical expression",
+    "categoria": "programacion",
+    "definicion": "Combinación de operadores y valores que devuelve un resultado booleano.",
+    "ejemplo": "La expresión (a > b) AND (c != d) evalúa si ambas condiciones son verdaderas."
+  },
+  {
+    "palabra": "valor booleano",
+    "traduccion": "boolean value",
+    "categoria": "programacion",
+    "definicion": "Tipo de dato que solo puede ser verdadero (true) o falso (false).",
+    "ejemplo": "La variable 'activo' puede tener el valor booleano true o false."
+  },
+  {
+    "palabra": "tabla de verdad",
+    "traduccion": "truth table",
+    "categoria": "programacion",
+    "definicion": "Representación de todos los posibles resultados de una expresión lógica.",
+    "ejemplo": "La tabla de verdad de A AND B muestra que solo es verdadera cuando ambos son verdaderos."
+  },
+  {
+    "palabra": "evaluación corta",
+    "traduccion": "short-circuit evaluation",
+    "categoria": "programacion",
+    "definicion": "Técnica donde se evita evaluar una segunda condición si la primera ya determina el resultado.",
+    "ejemplo": "En A AND B, si A es falso, no se evalúa B."
+  }
+]
