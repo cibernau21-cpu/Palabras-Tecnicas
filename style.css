@@ -1,3 +1,7 @@
+/* 🌄 Fondo general */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -10,31 +14,29 @@ body {
   background-repeat: no-repeat;
 }
 
-/* Encabezado con escudo a la derecha */
+/* 🏛️ Encabezado institucional */
 .encabezado-institucional {
+  color: #fdfdfd;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #e0e0e000;
   padding: 2em 1em;
 }
-
 .titulo-izquierda {
   max-width: 70%;
 }
-
 .escudo-derecha img {
   max-width: 100px;
 }
 
-/* Botón de presentación */
+/* ℹ️ Botón de presentación */
 .boton-presentacion-container {
   position: fixed;
   top: 20px;
   left: 20px;
   z-index: 1000;
 }
-
 .boton-presentacion {
   background-color: #2e6da4;
   color: white;
@@ -44,28 +46,25 @@ body {
   cursor: pointer;
 }
 
-/* Presentación lateral */
+/* 📜 Presentación lateral */
 .presentacion-lateral {
   position: fixed;
   top: 70px;
   left: 20px;
   width: 280px;
   background-color: #ffffff;
-  border-left: none;
   padding: 1em;
   font-size: 0.9em;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   z-index: 999;
 }
-
 .oculto {
   display: none;
 }
 
-/* 🟦 Secciones con barra institucional */
-.instrucciones,
-#resultado {
-  background-color: #ffffffcc; /* blanco con 80% opacidad */
+/* 📘 Secciones con barra institucional */
+.instrucciones, #resultado {
+  background-color: #ffffffc7;
   border-left: 4px solid #2e6da4;
   border-radius: 6px;
   padding: 1.5em;
@@ -74,20 +73,27 @@ body {
   max-width: 800px;
 }
 
-/* 🌿 Secciones limpias sin barra */
-.equipo-desarrollador,
-.ultima-actualizacion,
-#bienvenida {
-  background-color: transparent;
-  border-left: none;
+/* 🧠 Secciones en paralelo */
+.secciones-enlinea {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2em;
+  padding: 2em;
+  width: 100%;
+  background-color: #e0e0e000;
+}
+.secciones-enlinea section {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.808);
   border-radius: 6px;
+  color: #000000;
   padding: 1.5em;
-  margin: 2em auto;
-  box-shadow: none;
-  max-width: 800px;
+  box-sizing: border-box;
+  animation: desplegarSeccion 0.8s ease-out forwards;
 }
 
-/* Botones de categoría */
+/* 🧭 Botones de categoría */
 .botones-categorias {
   display: flex;
   justify-content: center;
@@ -96,33 +102,47 @@ body {
   margin: 1em 0;
 }
 
-.boton-categoria {
-  padding: 0.5em 1em;
-  font-size: 1em;
+/* 🔍 Buscador y sugerencias */
+.codepen-input {
+  position: relative;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 6px;
+  isolation: isolate;
+  overflow: hidden;
+  margin-top: 1em;
+}
+.codepen-input::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+  background-size: 25% 100%;
+  animation: borde-arcoiris 0.75s linear infinite;
+  animation-play-state: paused;
+  translate: -5% 0%;
+  transition: translate 0.25s ease-out;
+  z-index: 0;
+}
+.codepen-input:hover::before {
+  animation-play-state: running;
+  translate: 0% 0%;
+}
+.codepen-input input {
+  position: relative;
+  z-index: 1;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
   border: none;
-  background-color: #2e6da4;
+  border-radius: 3px;
+  background: #000000;
   color: white;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
 }
-
-.boton-categoria:hover {
-  background-color: #1b4f7a;
-}
-
-/* Buscador */
-#buscador {
-  display: block;
-  margin: 1em auto;
-  padding: 0.5em;
-  width: 80%;
-  max-width: 400px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-/* Sugerencias */
 .sugerencias-lista {
   list-style: none;
   padding: 0;
@@ -130,58 +150,133 @@ body {
   max-width: 400px;
 }
 
-/* Pie */
+/* 🧩 Contador de palabras */
+.contador-palabras {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #2c3e50;
+}
+
+/* 🧾 Pie institucional */
 .pie-institucional {
   text-align: center;
   font-size: 0.9em;
-  color: #666;
+  color: #fdfdfd;
   margin-top: 3em;
   padding: 1em;
   border-top: 1px solid #ccc;
 }
 
-/* Frase poética (si se usa) */
+/* 🌿 Frase poética */
 .frase-poetica {
   font-style: italic;
   color: #555;
 }
 
-/* Fondos por categoría */
+/* 🖼️ Fondos por categoría */
 body.arquitectura {
   background-image: url('fondo-arquitectura.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
-
 body.informatica {
   background-image: url('fondo-informatica.avif');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
-
 body.programacion {
   background-image: url('fondo-programacion.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
-/* Animación de entrada para el título */
+
+/* ✨ Animaciones */
 @keyframes aparecerTitulo {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.titulo-animado {
+  animation: aparecerTitulo 1s ease-out;
+}
+@keyframes desplegarSeccion {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 768px) {
+  .secciones-enlinea {
+    flex-direction: column;
+    padding: 1em;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+  .secciones-enlinea section {
+    width: 100%;
+    margin-bottom: 1.5em;
   }
 }
 
-.titulo-animado {
-  animation: aparecerTitulo 1s ease-out;
+/* 🌈 Botones animados estilo CodePen */
+.codepen-button {
+  display: block;
+  cursor: pointer;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 3px;
+  isolation: isolate;
+}
+.codepen-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+  background-size: 25% 100%;
+  animation: borde-arcoiris 0.75s linear infinite;
+  animation-play-state: paused;
+  translate: -5% 0%;
+  transition: translate 0.25s ease-out;
+}
+.codepen-button:hover::before {
+  animation-play-state: running;
+  transition-duration: 0.75s;
+  translate: 0% 0%;
+}
+.codepen-button span {
+  position: relative;
+  display: block;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  background: #000;
+  border-radius: 3px;
+  height: 100%;
+}
+
+/* 🎨 Colores por categoría */
+.codepen-button.arquitectura span {
+  background: black;
+}
+.codepen-button.informatica span {
+  background: black;
+}
+.codepen-button.programacion span {
+  background: black;
+}
+.codepen-button.buscar span {
+  background: #2e6da4;
+}
+.codepen-button.buscar:hover span {
+  background: #1b4f7a;
+}
+
+/* ✨ Animación de borde compartida */
+@keyframes borde-arcoiris {
+  to {
+    transform: translateX(-25%);
+  }
+}
+.codepen-input.buscar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1em auto;
 }

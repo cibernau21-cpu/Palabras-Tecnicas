@@ -1,14 +1,19 @@
-let palabrasData = [];
+let palabrasOriginales = [];
+let palabrasFiltradas = [];
 let categoriaActiva = null;
 
 // Cargar palabras desde el archivo JSON
 fetch('palabras.json')
   .then(res => res.json())
   .then(data => {
-    palabrasData = data;
-    console.log("Palabras cargadas:", palabrasData);
+    palabrasOriginales = data;
+    palabrasFiltradas = limpiarDuplicados(data);
 
-    // Activar buscador por texto
+    console.log(`🔍 Palabras originales: ${data.length}`);
+    console.log(`🧼 Palabras después de limpiar duplicados: ${palabrasFiltradas.length}`);
+
+    actualizarContador(palabrasFiltradas.length);
+
     document.getElementById('buscador').addEventListener('input', function () {
       mostrarResultado(this.value);
     });
@@ -22,7 +27,7 @@ function mostrarResultado(query) {
   const resultado = document.getElementById('resultado');
   const texto = query.trim().toLowerCase();
 
-  const palabra = palabrasData.find(p =>
+  const palabra = palabrasFiltradas.find(p =>
     p.palabra.toLowerCase() === texto || p.traduccion.toLowerCase() === texto
   );
 
@@ -58,7 +63,7 @@ document.getElementById('buscador').addEventListener('input', function () {
     return;
   }
 
-  const coincidencias = palabrasData.filter(p =>
+  const coincidencias = palabrasFiltradas.filter(p =>
     p.palabra.toLowerCase().includes(texto) ||
     p.traduccion.toLowerCase().includes(texto)
   );
@@ -91,6 +96,7 @@ function filtrarCategoria(categoria) {
     document.getElementById('bienvenida').style.display = 'block';
     document.body.className = '';
     botones.forEach(btn => btn.classList.remove('activo'));
+    actualizarContador(palabrasFiltradas.length);
     return;
   }
 
@@ -103,10 +109,11 @@ function filtrarCategoria(categoria) {
     btn.classList.toggle('activo', texto.includes(categoria));
   });
 
-  // Filtrar y ordenar alfabéticamente
-  const filtradas = palabrasData
+  const filtradas = palabrasFiltradas
     .filter(p => p.categoria.toLowerCase() === categoria)
     .sort((a, b) => a.palabra.localeCompare(b.palabra));
+
+  actualizarContador(filtradas.length);
 
   if (filtradas.length > 0) {
     resultado.innerHTML = `<ul class="lista-palabras">` + filtradas.map(p => `
@@ -119,9 +126,10 @@ function filtrarCategoria(categoria) {
     resultado.innerHTML = `<p>No hay palabras en la categoría "${categoria}".</p>`;
   }
 }
+
 // Alternar despliegue de palabra
 function alternarDetalle(nombre) {
-  const palabra = palabrasData.find(p => p.palabra.toLowerCase() === nombre.toLowerCase());
+  const palabra = palabrasFiltradas.find(p => p.palabra.toLowerCase() === nombre.toLowerCase());
   const contenedor = document.getElementById(`detalle-${nombre}`);
 
   if (!palabra || !contenedor) return;
@@ -129,19 +137,16 @@ function alternarDetalle(nombre) {
   const estaVisible = contenedor.classList.contains('visible');
 
   if (estaVisible) {
-    // Si ya está visible, lo ocultamos
     contenedor.innerHTML = '';
     contenedor.classList.remove('visible');
     contenedor.style.display = 'none';
   } else {
-    // Ocultamos todos los demás
     document.querySelectorAll('.detalle-palabra').forEach(div => {
       div.innerHTML = '';
       div.classList.remove('visible');
       div.style.display = 'none';
     });
 
-    // Mostramos el nuevo
     contenedor.innerHTML = `
       <p><strong>Traducción:</strong> ${palabra.traduccion}</p>
       <p><strong>Definición:</strong> ${palabra.definicion}</p>
@@ -151,3 +156,38 @@ function alternarDetalle(nombre) {
     contenedor.style.display = 'block';
   }
 }
+
+// Limpieza silenciosa de duplicados
+function limpiarDuplicados(palabras) {
+  const únicas = [];
+
+  palabras.forEach(item => {
+    const yaExiste = únicas.some(otro =>
+      item.palabra.toLowerCase() === otro.palabra.toLowerCase() &&
+      item.traduccion === otro.traduccion &&
+      item.definicion === otro.definicion &&
+      item.ejemplo === otro.ejemplo
+    );
+
+    if (!yaExiste) {
+      únicas.push(item);
+    }
+  });
+
+  return únicas;
+}
+
+// Contador visual
+function actualizarContador(cantidad) {
+  const contador = document.getElementById('contador-palabras');
+  if (contador) {
+    contador.textContent = `🌿 ${cantidad} palabras activas`;
+  }
+}
+// Bonton de busqueda
+document.getElementById('boton-buscar').addEventListener('click', () => {
+  const termino = document.getElementById('buscador').value.trim();
+  if (termino) {
+    filtrarCategoria(termino.toLowerCase()); // o la función que uses para buscar
+  }
+});

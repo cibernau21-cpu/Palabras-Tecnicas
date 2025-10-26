@@ -657,13 +657,6 @@
     "ejemplo": "if (edad > 18) { console.log('Mayor de edad'); }"
   },
   {
-    "palabra": "Bucle",
-    "traduccion": "loop",
-    "categoria": "programacion",
-    "definicion": "Estructura que repite un bloque de código mientras se cumpla una condición.",
-    "ejemplo": "for (let i = 0; i < 5; i++) { console.log(i); }"
-  },
-  {
     "palabra": "Objeto",
     "traduccion": "object",
     "categoria": "programacion",
@@ -1586,5 +1579,68 @@
     "traduccion": "Cooling System",
     "definicion": "Conjunto de ventiladores o disipadores que regulan la temperatura interna del equipo.",
     "ejemplo": "El sistema de refrigeración evita el sobrecalentamiento del procesador."
+  },
+  {
+    "palabra": "Product Owner",
+    "categoria": "programacion",
+    "traduccion": "Responsable del producto",
+    "definicion": "Rol que define y prioriza el backlog del producto, asegurando que el equipo trabaje en lo más valioso.",
+    "ejemplo": "El Product Owner revisó las historias de usuario antes del sprint."
+  },
+  {
+    "palabra": "Scrum Master",
+    "categoria": "programacion",
+    "traduccion": "Facilitador ágil",
+    "definicion": "Persona que guía el proceso Scrum, elimina impedimentos y promueve la mejora continua.",
+    "ejemplo": "El Scrum Master facilitó la reunión diaria y ayudó a resolver bloqueos técnicos."
+  },
+  {
+    "palabra": "Team Lead",
+    "categoria": "programacion",
+    "traduccion": "Líder técnico",
+    "definicion": "Responsable de coordinar al equipo de desarrollo y guiar las decisiones técnicas del proyecto.",
+    "ejemplo": "El Team Lead propuso una nueva arquitectura para mejorar el rendimiento."
+  },
+  {
+    "palabra": "Desarrolladores",
+    "categoria": "programacion",
+    "traduccion": "Developers",
+    "definicion": "Integrantes del equipo que codifican, prueban y mantienen el software.",
+    "ejemplo": "Los desarrolladores completaron las tareas del sprint y publicaron una nueva versión."
+  },
+  {
+    "palabra": "UX Designer",
+    "categoria": "programacion",
+    "traduccion": "Diseñador de experiencia de usuario",
+    "definicion": "Profesional que diseña la interacción entre el usuario y el sistema, buscando claridad, fluidez y empatía en cada paso.",
+    "ejemplo": "El UX Designer rediseñó el flujo de navegación para hacerlo más intuitivo."
+  },
+  {
+    "palabra": "DevOps",
+    "categoria": "programacion",
+    "traduccion": "Integrador de desarrollo y operaciones",
+    "definicion": "Rol que automatiza procesos, mantiene la infraestructura y facilita la entrega continua de software.",
+    "ejemplo": "El equipo de DevOps configuró el pipeline para desplegar cada versión sin intervención manual."
+  },
+  {
+    "palabra": "QA Tester",
+    "categoria": "programacion",
+    "traduccion": "Verificador de calidad",
+    "definicion": "Persona encargada de probar el software, detectar errores y asegurar que cumpla con los criterios definidos.",
+    "ejemplo": "El QA Tester encontró un bug en el formulario de registro antes del lanzamiento."
+  },
+  {
+    "palabra": "Arquitecto de Software",
+    "categoria": "programacion",
+    "traduccion": "Software Architect",
+    "definicion": "Responsable de definir la estructura técnica del sistema, sus componentes y cómo se relacionan.",
+    "ejemplo": "El arquitecto de software propuso una arquitectura basada en microservicios para escalar el proyecto."
+  },
+  {
+    "palabra": "Analista Funcional",
+    "categoria": "programacion",
+    "traduccion": "Functional Analyst",
+    "definicion": "Intermediario entre el cliente y el equipo técnico, que traduce requerimientos en especificaciones claras.",
+    "ejemplo": "El analista funcional documentó los procesos del usuario para que el equipo pudiera modelarlos."
   }
 ]
