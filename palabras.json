@@ -21,13 +21,6 @@
     "ejemplo": "En el menú 'Ayuda', seleccioná 'Acerca' para ver la versión del programa."
   },
   {
-    "palabra": "ALU",
-    "traduccion": "Unidad Aritmético-Lógica",
-    "categoria": "informatica",
-    "definicion": "Componente del procesador encargado de realizar operaciones matemáticas y lógicas.",
-    "ejemplo": "La ALU ejecuta sumas, restas y comparaciones dentro del CPU."
-  },
-  {
     "palabra": "Aplicación",
     "traduccion": "Application",
     "categoria": "informatica",
@@ -308,13 +301,6 @@
     "ejemplo": "El enrutador distribuye la señal de internet a todos los dispositivos del hogar."
   },
   {
-    "palabra": "Entrada",
-    "traduccion": "Input",
-    "categoria": "programacion",
-    "definicion": "Dato o señal que se recibe desde el exterior para ser procesado por un programa o sistema.",
-    "ejemplo": "El usuario ingresó su nombre como entrada en el formulario."
-  },
-  {
     "palabra": "Error",
     "traduccion": "Error",
     "categoria": "programacion",
@@ -413,13 +399,6 @@
     "ejemplo": "El impacto del nuevo diseño mejoró la experiencia de navegación."
   },
   {
-    "palabra": "Impresora",
-    "traduccion": "Printer",
-    "categoria": "informatica",
-    "definicion": "Dispositivo que convierte documentos digitales en copias físicas sobre papel.",
-    "ejemplo": "La impresora está conectada por Wi-Fi y lista para imprimir el informe."
-  },
-  {
     "palabra": "Iniciar",
     "traduccion": "Start",
     "categoria": "programacion",
@@ -432,13 +411,6 @@
     "categoria": "informatica",
     "definicion": "Proceso de incorporar un programa o componente en el sistema para que pueda ser utilizado.",
     "ejemplo": "Instalá el software siguiendo los pasos del asistente de instalación."
-  },
-  {
-    "palabra": "Interfaz",
-    "traduccion": "Interface",
-    "categoria": "programacion",
-    "definicion": "Conjunto de elementos visuales y funcionales que permiten la interacción entre el usuario y el sistema.",
-    "ejemplo": "La interfaz del sitio es intuitiva y accesible desde cualquier dispositivo."
   },
   {
     "palabra": "Internet",
@@ -460,20 +432,6 @@
     "categoria": "arquitectura",
     "definicion": "Dispositivo externo que se conecta a la computadora para ampliar sus funciones.",
     "ejemplo": "El mouse es un periférico de entrada que traduce el movimiento en coordenadas digitales."
-  },
-  {
-    "palabra": "Procesador",
-    "traduccion": "processor",
-    "categoria": "informatica",
-    "definicion": "Unidad central que ejecuta instrucciones y coordina las operaciones del sistema.",
-    "ejemplo": "El procesador actúa como el corazón lógico de la computadora."
-  },
-  {
-    "palabra": "Memoria RAM",
-    "traduccion": "RAM memory",
-    "categoria": "informatica",
-    "definicion": "Memoria volátil que almacena datos temporales mientras el sistema está encendido.",
-    "ejemplo": "Al abrir un programa, sus datos se cargan en la memoria RAM."
   },
   {
     "palabra": "Almacenamiento",
@@ -511,13 +469,6 @@
     "ejemplo": "El virus se propagó por correo electrónico y afectó varios equipos."
   },
   {
-    "palabra": "Código fuente",
-    "traduccion": "source code",
-    "categoria": "informatica",
-    "definicion": "Conjunto de instrucciones escritas por el programador para definir el comportamiento de un software.",
-    "ejemplo": "El código fuente del sitio web está escrito en HTML y JavaScript."
-  },
-  {
     "palabra": "Entorno virtual",
     "traduccion": "virtual environment",
     "categoria": "informatica",
@@ -532,13 +483,6 @@
     "ejemplo": "Windows 11 es un sistema operativo con interfaz gráfica y multitarea."
   },
   {
-    "palabra": "Hardware",
-    "traduccion": "hardware",
-    "categoria": "informatica",
-    "definicion": "Conjunto de componentes físicos que conforman un sistema informático.",
-    "ejemplo": "El teclado y el disco rígido son partes del hardware."
-  },
-  {
     "palabra": "Software",
     "traduccion": "software",
     "categoria": "informatica",
@@ -551,13 +495,6 @@
     "categoria": "informatica",
     "definicion": "Conjunto de dispositivos conectados para compartir información y recursos.",
     "ejemplo": "Una red doméstica permite conectar computadoras, impresoras y teléfonos."
-  },
-  {
-    "palabra": "Nube",
-    "traduccion": "cloud",
-    "categoria": "informatica",
-    "definicion": "Modelo de almacenamiento y procesamiento de datos en servidores remotos accesibles por internet.",
-    "ejemplo": "Google Drive permite guardar archivos en la nube."
   },
   {
     "palabra": "Base de datos",
@@ -601,32 +538,11 @@
     "ejemplo": "La caché guarda instrucciones que se usan con frecuencia para mejorar el rendimiento."
   },
   {
-    "palabra": "Bus de datos",
-    "traduccion": "data bus",
-    "categoria": "arquitectura",
-    "definicion": "Canal que transporta información entre los componentes internos de la computadora.",
-    "ejemplo": "El bus de datos conecta la CPU con la memoria y los periféricos."
-  },
-  {
     "palabra": "Registro",
     "traduccion": "register",
     "categoria": "arquitectura",
     "definicion": "Pequeña unidad de almacenamiento dentro del procesador que guarda datos temporales.",
     "ejemplo": "El registro almacena el resultado de una operación aritmética antes de enviarlo a la memoria."
-  },
-  {
-    "palabra": "Ciclo de instrucción",
-    "traduccion": "instruction cycle",
-    "categoria": "arquitectura",
-    "definicion": "Secuencia de pasos que realiza la CPU para ejecutar una instrucción.",
-    "ejemplo": "El ciclo incluye buscar, decodificar, ejecutar y almacenar el resultado."
-  },
-  {
-    "palabra": "Arquitectura Von Neumann",
-    "traduccion": "Von Neumann architecture",
-    "categoria": "arquitectura",
-    "definicion": "Modelo que organiza la computadora en unidades de procesamiento, memoria y entrada/salida.",
-    "ejemplo": "La mayoría de las computadoras actuales siguen la arquitectura Von Neumann."
   },
   {
     "palabra": "Unidad de control",
@@ -727,13 +643,6 @@
     "ejemplo": "Un sistema con buen rendimiento energético logra más con menos consumo."
   },
   {
-    "palabra": "Variable",
-    "traduccion": "variable",
-    "categoria": "programacion",
-    "definicion": "Espacio en memoria que almacena un valor que puede cambiar.",
-    "ejemplo": "La variable 'x' se incrementa en cada iteración."
-  },
-  {
     "palabra": "Función",
     "traduccion": "function",
     "categoria": "programacion",
@@ -774,13 +683,6 @@
     "categoria": "programacion",
     "definicion": "Plantilla para crear objetos con propiedades y métodos definidos.",
     "ejemplo": "class Animal { constructor(nombre) { this.nombre = nombre; } }"
-  },
-  {
-    "palabra": "Evento",
-    "traduccion": "event",
-    "categoria": "programacion",
-    "definicion": "Acción que ocurre en el sistema y puede ser detectada por el programa.",
-    "ejemplo": "button.addEventListener('click', saludar);"
   },
   {
     "palabra": "Interfaz",
@@ -1257,5 +1159,432 @@
     "categoria": "programacion",
     "definicion": "Lenguaje de programación de alto rendimiento para sistemas y videojuegos.",
     "ejemplo": "C++ se usa para desarrollar motores gráficos en videojuegos."
-    }
+    },
+  {
+    "palabra": "Maquina",
+    "categoria": "informatica",
+    "traduccion": "Machine",
+    "definicion": "Dispositivo que realiza tareas automáticamente mediante instrucciones programadas.",
+    "ejemplo": "La máquina virtual permite ejecutar sistemas operativos dentro de otro sistema."
+  },
+  {
+    "palabra": "Mas",
+    "categoria": "programacion",
+    "traduccion": "More",
+    "definicion": "Operador o término que indica adición o ampliación en contextos informáticos.",
+    "ejemplo": "Presioná el botón 'Más opciones' para ver funciones avanzadas."
+  },
+  {
+    "palabra": "Mientras",
+    "categoria": "programacion",
+    "traduccion": "While",
+    "definicion": "Palabra clave que define bucles condicionales en programación.",
+    "ejemplo": "El bucle 'mientras' se ejecuta mientras la condición sea verdadera."
+  },
+  {
+    "palabra": "Mostrar",
+    "categoria": "programacion",
+    "traduccion": "Display",
+    "definicion": "Acción de presentar información en pantalla o interfaz.",
+    "ejemplo": "El programa debe mostrar los resultados al finalizar el cálculo."
+  },
+  {
+    "palabra": "Navegador",
+    "categoria": "informatica",
+    "traduccion": "Browser",
+    "definicion": "Aplicación que permite acceder y visualizar sitios web en Internet.",
+    "ejemplo": "Google Chrome es uno de los navegadores más utilizados."
+  },
+  {
+    "palabra": "Negocio",
+    "categoria": "informatica",
+    "traduccion": "Business",
+    "definicion": "Área o actividad comercial que puede ser gestionada mediante herramientas digitales.",
+    "ejemplo": "El software de gestión ayuda a organizar los procesos del negocio."
+  },
+  {
+    "palabra": "Nube",
+    "categoria": "informatica",
+    "traduccion": "Cloud",
+    "definicion": "Sistema de almacenamiento y procesamiento de datos en servidores remotos accesibles por Internet.",
+    "ejemplo": "Guardá tus archivos en la nube para acceder desde cualquier dispositivo."
+  },
+  {
+    "palabra": "Pantalla",
+    "categoria": "informatica",
+    "traduccion": "Screen",
+    "definicion": "Superficie de salida visual donde se muestran imágenes, texto y gráficos.",
+    "ejemplo": "La pantalla táctil permite interactuar directamente con el dispositivo."
+  },
+  {
+    "palabra": "Programa",
+    "categoria": "informatica",
+    "traduccion": "Program",
+    "definicion": "Conjunto de instrucciones que una computadora ejecuta para realizar tareas específicas.",
+    "ejemplo": "El programa de edición de imágenes permite retocar fotografías digitalmente."
+  },
+  {
+    "palabra": "Raton",
+    "categoria": "arquitectura",
+    "traduccion": "Mouse",
+    "definicion": "Dispositivo de entrada que permite interactuar con la interfaz gráfica de una computadora.",
+    "ejemplo": "Mové el ratón para seleccionar el archivo que querés abrir."
+  },
+  {
+    "palabra": "Red",
+    "categoria": "informatica",
+    "traduccion": "Network",
+    "definicion": "Conjunto de dispositivos conectados entre sí para compartir información y recursos.",
+    "ejemplo": "La red del instituto permite acceder a los servidores internos."
+  },
+  {
+    "palabra": "Registros",
+    "categoria": "informatica",
+    "traduccion": "Logs",
+    "definicion": "Archivos o entradas que documentan eventos, acciones o errores en un sistema.",
+    "ejemplo": "Los registros del sistema muestran cuándo ocurrió el fallo."
+  },
+  {
+    "palabra": "Reparar",
+    "categoria": "programacion",
+    "traduccion": "Repair",
+    "definicion": "Acción de corregir fallos o restaurar el funcionamiento de un sistema o dispositivo.",
+    "ejemplo": "Se necesita reparar el disco duro para recuperar los archivos."
+  },
+  {
+    "palabra": "Seguir",
+    "categoria": "informatica",
+    "traduccion": "Follow",
+    "definicion": "Acción de continuar un proceso, rastrear una cuenta o mantener una suscripción digital.",
+    "ejemplo": "Podés seguir el canal para recibir actualizaciones del curso."
+  },
+  {
+    "palabra": "Seguridad",
+    "categoria": "informatica",
+    "traduccion": "Security",
+    "definicion": "Conjunto de medidas y prácticas que protegen los sistemas informáticos contra accesos no autorizados o daños.",
+    "ejemplo": "La seguridad informática es clave para proteger los datos personales."
+  },
+  {
+    "palabra": "Servicio",
+    "categoria": "informatica",
+    "traduccion": "Service",
+    "definicion": "Funcionalidad o recurso ofrecido por un sistema o aplicación para cumplir tareas específicas.",
+    "ejemplo": "El servicio de correo electrónico permite enviar y recibir mensajes."
+  },
+  {
+    "palabra": "Servidor",
+    "categoria": "informatica",
+    "traduccion": "Server",
+    "definicion": "Computadora o sistema que proporciona recursos, datos o servicios a otros dispositivos en una red.",
+    "ejemplo": "El servidor aloja la base de datos del sitio web."
+  },
+  {
+    "palabra": "Siguiente",
+    "categoria": "programacion",
+    "traduccion": "Next",
+    "definicion": "Elemento que continúa en una secuencia o proceso digital.",
+    "ejemplo": "Hacé clic en 'Siguiente' para continuar con la instalación."
+  },
+  {
+    "palabra": "Sistema",
+    "categoria": "informatica",
+    "traduccion": "System",
+    "definicion": "Conjunto de componentes que interactúan para cumplir funciones informáticas.",
+    "ejemplo": "El sistema de gestión controla los procesos administrativos del instituto."
+  },
+  {
+    "palabra": "Sitio Web",
+    "categoria": "informatica",
+    "traduccion": "Website",
+    "definicion": "Conjunto de páginas digitales interconectadas que se acceden mediante un navegador.",
+    "ejemplo": "El sitio web del diccionario técnico está alojado en GitHub Pages."
+  },
+  {
+    "palabra": "Solución",
+    "categoria": "informatica",
+    "traduccion": "Solution",
+    "definicion": "Respuesta o conjunto de acciones que resuelven un problema técnico o informático.",
+    "ejemplo": "La solución propuesta permite corregir el error de conexión."
+  },
+  {
+    "palabra": "Tarjeta madre",
+    "categoria": "arquitectura",
+    "traduccion": "Motherboard",
+    "definicion": "Placa principal de una computadora que conecta y coordina todos los componentes del sistema.",
+    "ejemplo": "La tarjeta madre incluye ranuras para la memoria RAM y el procesador."
+  },
+  {
+    "palabra": "Teclado",
+    "categoria": "arquitectura",
+    "traduccion": "Keyboard",
+    "definicion": "Dispositivo de entrada que permite escribir y controlar funciones mediante teclas.",
+    "ejemplo": "El teclado mecánico ofrece mayor precisión al escribir código."
+  },
+  {
+    "palabra": "Trabajo",
+    "categoria": "informatica",
+    "traduccion": "Work",
+    "definicion": "Actividad realizada con herramientas digitales o sistemas informáticos para cumplir objetivos.",
+    "ejemplo": "El trabajo remoto se facilita gracias a las plataformas colaborativas."
+  },
+  {
+    "palabra": "Ultima",
+    "categoria": "informatica",
+    "traduccion": "Latest",
+    "definicion": "Referencia a la versión más reciente de un software, archivo o actualización.",
+    "ejemplo": "Descargá la última versión del navegador para mayor seguridad."
+  },
+  {
+    "palabra": "Usando",
+    "categoria": "informatica",
+    "traduccion": "Using",
+    "definicion": "Acción de aplicar o emplear herramientas, recursos o funciones en un entorno digital.",
+    "ejemplo": "Estamos usando un editor de texto para escribir código."
+  },
+  {
+    "palabra": "Usuario",
+    "categoria": "informatica",
+    "traduccion": "User",
+    "definicion": "Persona que interactúa con un sistema informático o aplicación.",
+    "ejemplo": "Cada usuario tiene un nombre y contraseña para acceder al sistema."
+  },
+  {
+    "palabra": "Util",
+    "categoria": "informatica",
+    "traduccion": "Useful",
+    "definicion": "Que cumple una función práctica o facilita una tarea en el ámbito digital.",
+    "ejemplo": "Este programa es muy útil para organizar tus archivos."
+  },
+  {
+    "palabra": "Ventana",
+    "categoria": "informatica",
+    "traduccion": "Window",
+    "definicion": "Área visual en la interfaz gráfica que muestra contenido o permite interacción con una aplicación.",
+    "ejemplo": "Abrí una nueva ventana para ver el documento sin cerrar el navegador."
+  },
+  {
+    "palabra": "Webcam",
+    "categoria": "arquitectura",
+    "traduccion": "Webcam",
+    "definicion": "Dispositivo de entrada que captura imágenes o video en tiempo real, generalmente conectado a una computadora.",
+    "ejemplo": "La clase virtual se transmitió en vivo gracias a la webcam."
+  },
+  {
+    "palabra": "Wi-Fi",
+    "categoria": "informatica",
+    "traduccion": "Wi-Fi",
+    "definicion": "Tecnología inalámbrica que permite la conexión a redes de datos sin cables físicos.",
+    "ejemplo": "Conectate al Wi-Fi del instituto para acceder al diccionario técnico."
+  },
+  {
+    "palabra": "Bus de datos",
+    "categoria": "arquitectura",
+    "traduccion": "Data Bus",
+    "definicion": "Canal físico o lógico que transporta datos entre los componentes del sistema.",
+    "ejemplo": "El bus de datos conecta la memoria con el procesador."
+  },
+  {
+    "palabra": "Registros",
+    "categoria": "arquitectura",
+    "traduccion": "Registers",
+    "definicion": "Pequeñas unidades de almacenamiento dentro del procesador que guardan datos temporales.",
+    "ejemplo": "Los registros permiten realizar operaciones rápidas sin acceder a la memoria principal."
+  },
+  {
+    "palabra": "Arquitectura Von Neumann",
+    "categoria": "arquitectura",
+    "traduccion": "Von Neumann Architecture",
+    "definicion": "Modelo de diseño de computadoras donde datos e instrucciones comparten la misma memoria.",
+    "ejemplo": "La mayoría de las computadoras modernas siguen la arquitectura Von Neumann."
+  },
+  {
+    "palabra": "Ciclo de instrucción",
+    "categoria": "arquitectura",
+    "traduccion": "Instruction Cycle",
+    "definicion": "Secuencia de pasos que realiza el procesador para ejecutar una instrucción.",
+    "ejemplo": "El ciclo de instrucción incluye buscar, decodificar y ejecutar."
+  },
+  {
+    "palabra": "ALU",
+    "categoria": "arquitectura",
+    "traduccion": "Arithmetic Logic Unit",
+    "definicion": "Componente del procesador que realiza operaciones aritméticas y lógicas.",
+    "ejemplo": "La ALU ejecuta sumas, restas y comparaciones dentro del CPU."
+  },
+  {
+    "palabra": "BIOS",
+    "categoria": "arquitectura",
+    "traduccion": "Basic Input Output System",
+    "definicion": "Programa básico que inicia el hardware y carga el sistema operativo.",
+    "ejemplo": "El BIOS se ejecuta al encender la computadora y verifica los componentes."
+  },
+  {
+    "palabra": "Interrupción",
+    "categoria": "arquitectura",
+    "traduccion": "Interrupt",
+    "definicion": "Señal que altera el flujo normal de ejecución para atender eventos urgentes.",
+    "ejemplo": "Una interrupción permite que el sistema responda rápidamente al teclado."
+  },
+  {
+    "palabra": "Multiprocesador",
+    "categoria": "arquitectura",
+    "traduccion": "Multiprocessor",
+    "definicion": "Sistema que utiliza más de un procesador para ejecutar tareas simultáneamente.",
+    "ejemplo": "Los servidores modernos suelen tener arquitectura multiprocesador."
+  },
+  {
+    "palabra": "Pipeline",
+    "categoria": "informatica",
+    "traduccion": "Pipeline",
+    "definicion": "Técnica que permite ejecutar múltiples instrucciones en paralelo dentro del procesador.",
+    "ejemplo": "El pipeline mejora el rendimiento al dividir las instrucciones en etapas."
+  },
+  {
+    "palabra": "Reloj del sistema",
+    "categoria": "arquitectura",
+    "traduccion": "System Clock",
+    "definicion": "Circuito que sincroniza las operaciones del procesador mediante pulsos regulares.",
+    "ejemplo": "La velocidad del reloj del sistema se mide en gigahercios (GHz)."
+  },
+  {
+    "palabra": "Memoria principal",
+    "categoria": "arquitectura",
+    "traduccion": "Main Memory",
+    "definicion": "Área de almacenamiento donde se guardan datos e instrucciones en uso.",
+    "ejemplo": "La memoria principal es esencial para ejecutar programas activos."
+  },
+  {
+    "palabra": "Coprocesador",
+    "categoria": "arquitectura",
+    "traduccion": "Coprocessor",
+    "definicion": "Unidad auxiliar que complementa al procesador principal en tareas específicas como cálculos matemáticos o gráficos.",
+    "ejemplo": "El coprocesador gráfico mejora el rendimiento en videojuegos y diseño 3D."
+  },
+  {
+    "palabra": "Decodificador de instrucciones",
+    "categoria": "programacion",
+    "traduccion": "Instruction Decoder",
+    "definicion": "Componente que interpreta las instrucciones del programa y las traduce en señales para el procesador.",
+    "ejemplo": "El decodificador de instrucciones transforma el código binario en acciones concretas."
+  },
+  {
+    "palabra": "Memoria virtual",
+    "categoria": "arquitectura",
+    "traduccion": "Virtual Memory",
+    "definicion": "Técnica que permite usar parte del almacenamiento como si fuera memoria RAM, ampliando la capacidad operativa.",
+    "ejemplo": "La memoria virtual evita que el sistema se quede sin espacio para ejecutar programas."
+  },
+  {
+    "palabra": "Topología de red",
+    "categoria": "arquitectura",
+    "traduccion": "Network Topology",
+    "definicion": "Forma en que se organizan y conectan los dispositivos dentro de una red informática.",
+    "ejemplo": "La topología en estrella conecta todos los dispositivos a un nodo central."
+  },
+  {
+    "palabra": "Unidad de punto flotante",
+    "categoria": "arquitectura",
+    "traduccion": "Floating Point Unit",
+    "definicion": "Parte del procesador especializada en cálculos con números decimales o reales.",
+    "ejemplo": "La unidad de punto flotante es esencial para simulaciones científicas."
+  },
+  {
+    "palabra": "Controlador de memoria",
+    "categoria": "arquitectura",
+    "traduccion": "Memory Controller",
+    "definicion": "Circuito que gestiona el acceso a la memoria principal y coordina la lectura y escritura de datos.",
+    "ejemplo": "El controlador de memoria optimiza el flujo de datos entre el procesador y la RAM."
+  },
+  {
+    "palabra": "Unidad lógica",
+    "categoria": "arquitectura",
+    "traduccion": "Logic Unit",
+    "definicion": "Parte del procesador que realiza operaciones lógicas como comparaciones y decisiones.",
+    "ejemplo": "La unidad lógica determina si una condición es verdadera o falsa."
+  },
+  {
+    "palabra": "Monitor",
+    "categoria": "arquitectura",
+    "traduccion": "Monitor",
+    "definicion": "Dispositivo de salida que muestra información visual al usuario.",
+    "ejemplo": "El monitor permite ver el escritorio y las aplicaciones abiertas."
+  },
+  {
+    "palabra": "Impresora",
+    "categoria": "arquitectura",
+    "traduccion": "Printer",
+    "definicion": "Dispositivo de salida que transfiere información digital al papel.",
+    "ejemplo": "La impresora se usa para obtener copias físicas de documentos."
+  },
+  {
+    "palabra": "Escáner",
+    "categoria": "arquitectura",
+    "traduccion": "Scanner",
+    "definicion": "Dispositivo de entrada que digitaliza documentos físicos.",
+    "ejemplo": "El escáner convierte una hoja impresa en una imagen digital."
+  },
+  {
+    "palabra": "Micrófono",
+    "categoria": "arquitectura",
+    "traduccion": "Microphone",
+    "definicion": "Dispositivo de entrada que captura sonido para su procesamiento digital.",
+    "ejemplo": "El micrófono permite grabar voz o comunicarse en línea."
+  },
+  {
+    "palabra": "Altavoces",
+    "categoria": "arquitectura",
+    "traduccion": "Speakers",
+    "definicion": "Dispositivo de salida que reproduce sonido desde la computadora.",
+    "ejemplo": "Los altavoces permiten escuchar música o sonidos del sistema."
+  },
+  {
+    "palabra": "Unidad flash",
+    "categoria": "arquitectura",
+    "traduccion": "Flash Drive",
+    "definicion": "Dispositivo de almacenamiento portátil que utiliza memoria flash.",
+    "ejemplo": "La unidad flash se conecta por USB y permite transportar archivos."
+  },
+  {
+    "palabra": "Disco duro externo",
+    "categoria": "arquitectura",
+    "traduccion": "External Hard Drive",
+    "definicion": "Dispositivo de almacenamiento que se conecta externamente para guardar grandes cantidades de datos.",
+    "ejemplo": "El disco duro externo se usa para respaldar información importante."
+  },
+  {
+    "palabra": "Procesador",
+    "categoria": "arquitectura",
+    "traduccion": "Processor",
+    "definicion": "Unidad central que ejecuta instrucciones y coordina las operaciones del sistema.",
+    "ejemplo": "El procesador determina la velocidad de ejecución de los programas."
+  },
+  {
+    "palabra": "Memoria RAM",
+    "categoria": "arquitectura",
+    "traduccion": "RAM Memory",
+    "definicion": "Memoria volátil que almacena datos temporales mientras el sistema está en funcionamiento.",
+    "ejemplo": "Cuanta más memoria RAM tenga tu computadora, mejor será su rendimiento."
+  },
+  {
+    "palabra": "Fuente de poder",
+    "categoria": "arquitectura",
+    "traduccion": "Power Supply",
+    "definicion": "Componente que convierte la energía eléctrica en voltajes adecuados para los demás dispositivos.",
+    "ejemplo": "La fuente de poder alimenta la tarjeta madre y los periféricos."
+  },
+  {
+    "palabra": "Tarjeta gráfica",
+    "categoria": "arquitectura",
+    "traduccion": "Graphics Card",
+    "definicion": "Unidad que procesa imágenes y gráficos para mostrarlos en pantalla.",
+    "ejemplo": "La tarjeta gráfica mejora el rendimiento en videojuegos y diseño visual."
+  },
+  {
+    "palabra": "Sistema de refrigeración",
+    "categoria": "arquitectura",
+    "traduccion": "Cooling System",
+    "definicion": "Conjunto de ventiladores o disipadores que regulan la temperatura interna del equipo.",
+    "ejemplo": "El sistema de refrigeración evita el sobrecalentamiento del procesador."
+  }
 ]
