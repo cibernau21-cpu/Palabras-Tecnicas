@@ -1642,5 +1642,306 @@
     "traduccion": "Functional Analyst",
     "definicion": "Intermediario entre el cliente y el equipo técnico, que traduce requerimientos en especificaciones claras.",
     "ejemplo": "El analista funcional documentó los procesos del usuario para que el equipo pudiera modelarlos."
+  },
+  {
+    "palabra": "Cookie",
+    "traduccion": "Archivo de seguimiento",
+    "categoria": "informatica",
+    "definicion": "Archivo pequeño que un sitio web guarda en el navegador del usuario para recordar información entre sesiones.",
+    "ejemplo": "El sitio usó una cookie para recordar tu idioma preferido."
+  },
+  {
+    "palabra": "Cover",
+    "traduccion": "Imagen de portada",
+    "categoria": "informatica",
+    "definicion": "Imagen o diseño que se utiliza como portada visual en una interfaz digital, como un perfil o una presentación.",
+    "ejemplo": "Cambió la cover de su perfil en la red social."
+  },
+  {
+    "palabra": "File transfer",
+    "traduccion": "Transferencia de archivos",
+    "categoria": "informatica",
+    "definicion": "Proceso de mover o copiar archivos de un dispositivo o sistema a otro, generalmente a través de una red.",
+    "ejemplo": "Realizó una transferencia de archivos desde su computadora al servidor remoto."
+  },
+  {
+    "palabra": "Hacker",
+    "traduccion": "hacker",
+    "categoria": "informatica",
+    "definicion": "Persona con conocimientos avanzados en informática que puede modificar sistemas, a veces con fines éticos y otras veces con intenciones maliciosas.",
+    "ejemplo": "Un hacker ético ayudó a detectar vulnerabilidades en el sistema."
+  },
+  {
+    "palabra": "Home Page",
+    "traduccion": "Página de inicio",
+    "categoria": "informatica",
+    "definicion": "Primera página que se muestra al ingresar a un sitio web, que suele contener enlaces a las secciones principales.",
+    "ejemplo": "La página de inicio del diccionario muestra las categorías disponibles."
+  },
+  {
+    "palabra": "Bandeja de entrada",
+    "traduccion": "Inbox",
+    "categoria": "informatica",
+    "definicion": "Sección de una aplicación de correo electrónico donde se reciben los mensajes nuevos.",
+    "ejemplo": "Revisó su inbox y encontró un correo del instituto."
+  },
+  {
+    "palabra": "Vista previa",
+    "traduccion": "Preview",
+    "categoria": "informatica",
+    "definicion": "Función que permite ver cómo se verá un archivo, documento o contenido antes de ser publicado o guardado.",
+    "ejemplo": "Antes de imprimir el informe, revisó la vista previa para corregir errores."
+  },
+  {
+    "palabra": "busqueda",
+    "traduccion": "Search",
+    "categoria": "informatica",
+    "definicion": "Acción de localizar información dentro de un sistema, sitio web o base de datos mediante palabras clave.",
+    "ejemplo": "Usó la función de búsqueda para encontrar el término 'algoritmo'."
+  },
+  {
+    "palabra": "Configuración",
+    "traduccion": "Setup",
+    "categoria": "informatica",
+    "definicion": "Proceso de instalación y ajuste inicial de un sistema, programa o dispositivo para que funcione correctamente.",
+    "ejemplo": "Durante el setup del software, eligió el idioma y la carpeta de destino."
+  },
+  {
+    "palabra": "Sitio web",
+    "traduccion": "Site",
+    "categoria": "informatica",
+    "definicion": "Conjunto de páginas digitales interconectadas que se acceden mediante una dirección web.",
+    "ejemplo": "Visitó el sitio web del instituto para consultar el calendario académico."
+  },
+  {
+    "palabra": "Archivo adjunto",
+    "traduccion": "Attachment",
+    "categoria": "informatica",
+    "definicion": "Archivo que se envía junto a un correo electrónico o mensaje digital.",
+    "ejemplo": "El profesor envió el programa de la materia como archivo adjunto."
+  },
+  {
+    "palabra": "Entorno",
+    "traduccion": "Environment",
+    "categoria": "informatica",
+    "definicion": "Conjunto de condiciones y herramientas que rodean el desarrollo o ejecución de un software, como el sistema operativo, librerías y configuraciones.",
+    "ejemplo": "Configuró el entorno de desarrollo para trabajar con Python y HTML."
+  },
+  {
+    "palabra": "memoria USB",
+    "traduccion": "Pendrive",
+    "categoria": "arquitectura",
+    "definicion": "Dispositivo portátil de almacenamiento que se conecta a través del puerto USB y permite guardar, transferir y transportar archivos.",
+    "ejemplo": "Guardó el trabajo práctico en su pendrive para llevarlo al instituto."
+  },
+  {
+    "palabra": "Código binario",
+    "traduccion": "Binary code",
+    "categoria": "informatica",
+    "definicion": "Sistema de codificación que utiliza solo dos dígitos, 0 y 1, para representar datos e instrucciones en computadoras.",
+    "ejemplo": "El procesador interpreta las instrucciones en código binario para ejecutar tareas."
+  },
+  {
+    "palabra": "Licencia de software",
+    "traduccion": "Software license",
+    "categoria": "informatica",
+    "definicion": "Permiso legal que establece cómo puede usarse, distribuirse o modificarse un programa informático.",
+    "ejemplo": "El editor eligió una licencia de software libre para su aplicación educativa."
+  },
+  {
+    "palabra": "Alojamiento web",
+    "traduccion": "Hosting",
+    "categoria": "informatica",
+    "definicion": "Servicio que permite almacenar y publicar sitios web en servidores accesibles desde internet.",
+    "ejemplo": "Contrataron un servicio de hosting para subir el diccionario técnico al sitio institucional."
+  },
+  {
+    "palabra": "página web",
+    "traduccion": "Web page",
+    "categoria": "informatica",
+    "definicion": "Documento digital que forma parte de un sitio web y que puede contener texto, imágenes, enlaces y otros elementos interactivos.",
+    "ejemplo": "La página web del glosario incluye categorías como programación e informática."
+  },
+  {
+    "palabra": "Password",
+    "traduccion": "Contraseña",
+    "categoria": "informatica",
+    "definicion": "Cadena de caracteres utilizada para verificar la identidad de un usuario y proteger el acceso a sistemas o servicios.",
+    "ejemplo": "Ingresó su contraseña para acceder al correo institucional."
+  },
+  {
+    "palabra": "Bandwidth",
+    "traduccion": "Ancho de banda",
+    "categoria": "informatica",
+    "definicion": "Cantidad de datos que puede transmitirse por una red en un período determinado, generalmente medido en megabits por segundo (Mbps).",
+    "ejemplo": "El video tardó en cargar por el bajo ancho de banda disponible."
+  },
+  {
+    "palabra": "Spam",
+    "traduccion": "Correo no deseado",
+    "categoria": "informatica",
+    "definicion": "Mensajes electrónicos no solicitados, generalmente de tipo publicitario, que se envían masivamente.",
+    "ejemplo": "El filtro de spam bloqueó los correos sospechosos."
+  },
+  {
+    "palabra": "Reboot",
+    "traduccion": "Reiniciar",
+    "categoria": "informatica",
+    "definicion": "Acción de apagar y volver a encender un sistema o dispositivo para restaurar su funcionamiento.",
+    "ejemplo": "Tuvo que reiniciar la computadora para aplicar las actualizaciones."
+  },
+  {
+    "palabra": "Inicio del sistema",
+    "traduccion": "Boot Up",
+    "categoria": "informatica",
+    "definicion": "Proceso mediante el cual una computadora carga el sistema operativo y se prepara para ser utilizada.",
+    "ejemplo": "Durante el boot up, el sistema mostró el logotipo del instituto."
+  },
+  {
+    "palabra": "captura de pantalla",
+    "traduccion": "Screenshot",
+    "categoria": "informatica",
+    "definicion": "Imagen que muestra el contenido visible en la pantalla de un dispositivo en un momento determinado.",
+    "ejemplo": "Tomó una captura de pantalla del error para enviárselo al profesor."
+  },
+  {
+    "palabra": "componente interactivo",
+    "traduccion": "Widget",
+    "categoria": "informatica",
+    "definicion": "Elemento visual que permite mostrar información o realizar acciones rápidas en una interfaz, como reloj, clima o accesos directos.",
+    "ejemplo": "Agregó un widget de calendario en la pantalla principal de su celular."
+  },
+  {
+    "palabra": "Pantalla de bloqueo",
+    "traduccion": "Lock screen",
+    "categoria": "informatica",
+    "definicion": "Interfaz que aparece cuando un dispositivo está bloqueado, mostrando la hora, notificaciones y opciones de desbloqueo.",
+    "ejemplo": "Personalizó la pantalla de bloqueo con una imagen del instituto."
+  },
+  {
+    "palabra": "Tarjeta SIM",
+    "traduccion": "SIM card",
+    "categoria": "informatica",
+    "definicion": "Chip que se inserta en dispositivos móviles para conectarse a redes celulares y almacenar información del usuario.",
+    "ejemplo": "Tuvo que cambiar la tarjeta SIM para activar el nuevo teléfono."
+  },
+  {
+    "palabra": "Cortar y pegar",
+    "traduccion": "Cut and paste",
+    "categoria": "informatica",
+    "definicion": "Acción de mover contenido de un lugar a otro, eliminándolo de su origen y colocándolo en un nuevo destino.",
+    "ejemplo": "Cortó y pegó el párrafo en otra sección del documento."
+  },
+  {
+    "palabra": "Arrastrar y soltar",
+    "traduccion": "Drag and drop",
+    "categoria": "informatica",
+    "definicion": "Interacción que permite mover elementos en una interfaz gráfica arrastrándolos con el cursor y soltándolos en otra ubicación.",
+    "ejemplo": "Organizó los archivos usando la función de arrastrar y soltar."
+  },
+  {
+    "palabra": "Comprimir",
+    "traduccion": "Zip",
+    "categoria": "informatica",
+    "definicion": "Acción de reducir el tamaño de uno o varios archivos agrupándolos en un solo archivo comprimido, generalmente con extensión .zip.",
+    "ejemplo": "Comprimió las imágenes en un archivo zip para enviarlas por correo."
+  },
+  {
+    "palabra": "Guardar como",
+    "traduccion": "Save as",
+    "categoria": "informatica",
+    "definicion": "Opción que permite guardar un archivo con un nuevo nombre, ubicación o formato.",
+    "ejemplo": "Usó 'guardar como' para exportar el documento en PDF."
+  },
+  {
+    "palabra": "Párrafo",
+    "traduccion": "Paragraph",
+    "categoria": "informatica",
+    "definicion": "Bloque de texto separado por saltos de línea, que puede tener formato propio en un procesador de texto.",
+    "ejemplo": "Alineó el párrafo al centro para destacarlo en la presentación."
+  },
+  {
+    "palabra": "Salto de página",
+    "traduccion": "Page break",
+    "categoria": "informatica",
+    "definicion": "Elemento que indica el final de una página y el comienzo de otra en un documento digital.",
+    "ejemplo": "Insertó un salto de página antes del nuevo capítulo."
+  },
+  {
+    "palabra": "Tabla de contenido",
+    "traduccion": "Table of contents",
+    "categoria": "informatica",
+    "definicion": "Lista organizada de secciones o títulos de un documento, que permite navegar fácilmente por su estructura.",
+    "ejemplo": "La tabla de contenido incluía enlaces a cada unidad del manual."
+  },
+  {
+    "palabra": "Insertar",
+    "traduccion": "Insert",
+    "categoria": "informatica",
+    "definicion": "Acción de agregar un elemento (imagen, tabla, enlace, etc.) dentro de un documento o archivo digital.",
+    "ejemplo": "Insertó una imagen en el informe para ilustrar el concepto."
+  },
+  {
+    "palabra": "función",
+    "traduccion": "function",
+    "categoria": "programacion",
+    "definicion": "Bloque de código reutilizable que realiza una tarea específica y se define con la palabra clave 'def' en Python.",
+    "ejemplo": "def saludar(): print('Hola mundo')"
+  },
+  {
+    "palabra": "clase",
+    "traduccion": "class",
+    "categoria":"programacion",
+    "definicion": "Plantilla para crear objetos que encapsulan datos y comportamientos en Python.",
+    "ejemplo": "class Persona: pass"
+  },
+  {
+    "palabra": "diccionario",
+    "traduccion": "dictionary",
+    "categoria":"programacion",
+    "definicion": "Estructura de datos que almacena pares clave-valor, similar a un objeto JSON.",
+    "ejemplo": "usuario = { 'nombre': 'Ana', 'edad': 25 }"
+  },
+  {
+    "palabra": "lista",
+    "traduccion": "list",
+    "categoria":"programacion",
+    "definicion": "Colección ordenada y mutable de elementos en Python.",
+    "ejemplo": "numeros = [1, 2, 3, 4]"
+  },
+  {
+    "palabra": "tupla",
+    "traduccion": "tuple",
+    "categoria": "programacion",
+    "definicion": "Colección ordenada e inmutable de elementos en Python.",
+    "ejemplo": "coordenadas = (10, 20)"
+  },
+  {
+    "palabra": "condicional",
+    "traduccion": "conditional",
+    "categoria":"programacion",
+    "definicion": "Estructura que ejecuta un bloque de código si se cumple una condición lógica.",
+    "ejemplo": "if x > 0: print('Positivo')"
+  },
+  {
+    "palabra": "módulo",
+    "traduccion": "module",
+    "categoria":"programacion",
+    "definicion": "Archivo de Python que contiene funciones, clases o variables que pueden importarse en otros programas.",
+    "ejemplo": "import math"
+  },
+  {
+    "palabra": "paquete",
+    "traduccion": "package",
+    "categoria":"programacion",
+    "definicion": "Colección de módulos organizados en carpetas con un archivo __init__.py.",
+    "ejemplo": "import numpy"
+  },
+  {
+    "palabra": "excepción",
+    "traduccion": "exception",
+    "categoria":"programacion",
+    "definicion": "Error detectado durante la ejecución que puede manejarse con try/except.",
+    "ejemplo": "try: x = 1/0 except ZeroDivisionError: print('Error')"
   }
 ]

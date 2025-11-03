@@ -3,32 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>Diccionario Técnico de TSDS</title>
-    <meta name="description" content="Diccionario técnico colaborativo con definiciones claras, ejemplos y traducciones sobre programación, informática y arquitectura.">
-  <meta name="keywords" content="diccionario técnico, programación, informática, arquitectura, palabras técnicas, TSDS, Corrientes, ISFD">
-  <meta name="author" content="Estudiantes TSDS - ISFD San Miguel">
-  <meta name="google-site-verification" content="TG_MYcABStC5_K2ZO4SMbIuyNzu5dI63RVARsU0NFTM" />
+  <meta name="description" content="Diccionario técnico colaborativo con definiciones claras, ejemplos y traducciones sobre programación, informática y arquitectura.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Botón para mostrar presentación -->
+  <!-- ℹ️ Botón de presentación -->
   <div class="boton-presentacion-container">
     <button id="boton-presentacion" class="boton-presentacion">ℹ️ Presentación</button>
   </div>
 
-  <!-- Presentación oculta -->
+  <!-- 📜 Presentación lateral -->
   <div id="contenido-presentacion" class="presentacion-lateral oculto">
     <p>
-      Este sitio web es un proyecto colaborativo desarrollado por estudiantes del primer año de la Tecnicatura en Desarrollo de Software del Instituto ISFD, ubicado en San Miguel, Corrientes.
+      Este sitio web es un proyecto colaborativo desarrollado por estudiantes del primer año de la Tecnicatura en Desarrollo de Software del Instituto ISFD, ubicado en San Miguel, Corrientes 2025.
       Su propósito es reunir y presentar términos técnicos vinculados a la informática, la programación y la arquitectura, con definiciones claras, ejemplos prácticos y traducciones al inglés.
     </p>
   </div>
 
-  <!-- Encabezado institucional -->
+  <!-- 🏛️ Encabezado institucional -->
   <header class="encabezado-institucional">
     <div class="titulo-izquierda">
-    <h1 class="titulo-animado">Diccionario Técnico</h1>
+   <h1 class="titulo-animado">Diccionario Técnico</h1>
       <p class="subtitulo">Proyecto académico de la Tecnicatura en Desarrollo de Software</p>
     </div>
     <div class="escudo-derecha">
@@ -36,27 +33,27 @@
     </div>
   </header>
 
-  <!-- Sección de navegación -->
+  <!-- 📘 Sección de navegación -->
   <section class="instrucciones">
     <h2>Explorá el diccionario</h2>
     <p>Elegí una categoría para comenzar:</p>
-<div class="botones-categorias">
-  <button class="codepen-button arquitectura" onclick="filtrarCategoria('arquitectura')">
-    <span>🖥️ Arquitectura</span>
-  </button>
-  <button class="codepen-button informatica" onclick="filtrarCategoria('informatica')">
-    <span>🧑‍💻Informática</span>
-  </button>
-  <button class="codepen-button programacion" onclick="filtrarCategoria('programacion')">
-    <span>🧠 Programación</span>
-  </button>
-</div>
 
-<div class="codepen-input buscar">
-  <input type="text" id="buscador" placeholder="Buscar palabra técnica...">
-</div>
-  </button>
-</div>
+    <div class="botones-categorias">
+      <button class="codepen-button arquitectura boton-categoria" onclick="filtrarCategoria('arquitectura')">
+        <span>🖥️ Arquitectura</span>
+      </button>
+      <button class="codepen-button informatica boton-categoria" onclick="filtrarCategoria('informatica')">
+        <span>🧑‍💻 Informática</span>
+      </button>
+      <button class="codepen-button programacion boton-categoria" onclick="filtrarCategoria('programacion')">
+        <span>🧠 Programación</span>
+      </button>
+    </div>
+
+    <div class="codepen-input buscar">
+      <input type="text" id="buscador" placeholder="Buscar palabra técnica... ES / GB">
+    </div>
+
     <ul id="sugerencias" class="sugerencias-lista"></ul>
     <div id="bienvenida">
       <p class="frase-poetica">Bienvenido al monte de las palabras.</p>
@@ -65,39 +62,41 @@
     <div id="contador-palabras" class="contador-palabras"></div>
   </section>
 
-  <!-- Sección de equipo desarrollador -->
-   <div class="secciones-enlinea">
-  <section class="equipo-desarrollador">
-    <h2>Equipo desarrollador</h2>
-    <p>Este diccionario fue realizado por estudiantes del primer año de la Tecnicatura en Desarrollo de Software del Instituto ISFD, como parte de una práctica integradora que combina diseño web, programación y documentación técnica.
-    </p>
-  </section>
-  
-  <!-- Sección de última actualización -->
-  <section class="ultima-actualizacion">
-    <h2>Última actualización</h2>
-    <p>Este sitio fue actualizado por última vez el <span id="fecha-actualizacion"></span>.</p>
-  </section>
-</div>
-  
-  <!-- Pie institucional -->
+  <!-- 🧠 Secciones institucionales -->
+  <div class="secciones-enlinea">
+    <section class="equipo-desarrollador">
+      <h2>Equipo desarrollador</h2>
+      <p>Este diccionario fue realizado por estudiantes del primer año de la Tecnicatura en Desarrollo de Software del Instituto ISFD, como parte de una práctica integradora que combina diseño web, programación y documentación técnica.</p>
+    </section>
+
+    <section class="ultima-actualizacion">
+      <h2>Última actualización</h2>
+      <p><span id="fecha-actualizacion"></span></p>
+    </section>
+  </div>
+
+  <!-- 🧾 Pie institucional -->
   <footer class="pie-institucional">
     <p>Instituto ISFD · San Miguel, Corrientes</p>
     <p>Licencia MIT · Proyecto educativo sin fines de lucro</p>
   </footer>
 
-  <!-- Scripts -->
+  <!-- 🪶 Script principal -->
   <script src="script.js"></script>
+
+  <!-- 🪶 Script para mostrar versión -->
   <script>
-    const fecha = new Date();
-    const opciones = { year: 'numeric', month: 'long', day: 'numeric' };
-    document.getElementById('fecha-actualizacion').textContent = fecha.toLocaleDateString('es-AR', opciones);
-
-    document.getElementById('boton-presentacion').addEventListener('click', () => {
-      const contenido = document.getElementById('contenido-presentacion');
-      contenido.classList.toggle('oculto');
-    });
+    fetch('version.json')
+      .then(res => res.json())
+      .then(data => {
+        const cantidad = typeof palabrasFiltradas !== 'undefined' ? palabrasFiltradas.length : '...';
+        document.getElementById('fecha-actualizacion').textContent =
+          `Versión ${data.version} · Actualizado el ${data.fecha} · 🐊 ${cantidad} palabras activas`;
+      })
+      .catch(() => {
+        document.getElementById('fecha-actualizacion').textContent = 'Versión desconocida';
+      });
   </script>
+  <button id="boton-volver" class="boton-volver oculto">🔙 Volver al inicio</button>
 </body>
-
 </html>
