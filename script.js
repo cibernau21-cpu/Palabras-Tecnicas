@@ -1,10 +1,11 @@
 let palabrasFiltradas = [];
 let categoriaActiva = null;
 
-// 🌱 Cargar palabras desde el archivo JSON
+// 🌱 Cargar palabras desde el archivo JSON con frase poética de carga
 fetch('palabras.json')
   .then(res => res.json())
   .then(data => {
+    document.getElementById('resultado').innerHTML = '<p class="frase-poetica">🌱 El monte está despertando…</p>';
     palabrasFiltradas = limpiarDuplicados(data);
     actualizarContador(palabrasFiltradas.length);
     inicializarBuscador();
@@ -25,7 +26,6 @@ function volverAlInicio() {
   actualizarContador(palabrasFiltradas.length);
   mostrarBotonVolver(false);
 
-  // 🌿 Restaurar elementos institucionales
   document.querySelector('.encabezado-institucional')?.classList.remove('ocultar');
   document.querySelector('.secciones-enlinea')?.classList.remove('ocultar');
   document.querySelector('.pie-institucional')?.classList.remove('ocultar');
@@ -58,12 +58,20 @@ function mostrarResultado(query) {
   activarBotonPresentacion();
 }
 
-// 💡 Sugerencias dinámicas
+// 💡 Sugerencias dinámicas con debounce
+function debounce(fn, delay) {
+  let timer;
+  return function (...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn.apply(this, args), delay);
+  };
+}
+
 function inicializarBuscador() {
   const buscador = document.getElementById('buscador');
   const sugerencias = document.getElementById('sugerencias');
 
-  buscador.addEventListener('input', function () {
+  buscador.addEventListener('input', debounce(function () {
     const texto = this.value.trim().toLowerCase();
     sugerencias.innerHTML = '';
 
@@ -85,19 +93,15 @@ function inicializarBuscador() {
       p.definicion.toLowerCase().includes(texto)
     );
 
-    if (coincidencias.length > 0) {
-      sugerencias.innerHTML = coincidencias.slice(0, 5).map(p => `
-        <li onclick="seleccionarSugerencia('${p.palabra}')">
-          ${p.palabra} → <span class="traduccion">${p.traduccion}</span>
-        </li>
-      `).join('');
-    } else {
-      sugerencias.innerHTML = `<li class="sin-resultados">No hay coincidencias.</li>`;
-    }
+    sugerencias.innerHTML = coincidencias.slice(0, 5).map(p => `
+      <li onclick="seleccionarSugerencia('${p.palabra}')">
+        ${p.palabra} → <span class="traduccion">${p.traduccion}</span>
+      </li>
+    `).join('');
 
     mostrarPalabras(coincidencias);
     activarBotonPresentacion();
-  });
+  }, 300));
 }
 
 function seleccionarSugerencia(palabra) {
@@ -186,7 +190,7 @@ function mostrarPalabras(lista) {
   activarBotonPresentacion();
 }
 
-// 📖 Alternar despliegue de palabra
+// 📖 Alternar despliegue de palabra optimizado
 function alternarDetalle(nombre) {
   const palabra = palabrasFiltradas.find(p => p.palabra.toLowerCase() === nombre.toLowerCase());
   const contenedor = document.getElementById(`detalle-${nombre}`);
@@ -195,13 +199,17 @@ function alternarDetalle(nombre) {
 
   const estaVisible = contenedor.classList.contains('visible');
 
-  document.querySelectorAll('.detalle-palabra').forEach(div => {
-    div.innerHTML = '';
-    div.classList.remove('visible');
-    div.style.display = 'none';
-  });
+  if (estaVisible) {
+    contenedor.innerHTML = '';
+    contenedor.classList.remove('visible');
+    contenedor.style.display = 'none';
+  } else {
+    document.querySelectorAll('.detalle-palabra.visible').forEach(div => {
+      div.innerHTML = '';
+      div.classList.remove('visible');
+      div.style.display = 'none';
+    });
 
-  if (!estaVisible) {
     contenedor.innerHTML = `
       <p><span class="bandera">🇬🇧</span> <em class="palabra-en">${palabra.traduccion}</em></p>
       <p class="definicion">${palabra.definicion}</p>
@@ -211,7 +219,6 @@ function alternarDetalle(nombre) {
     contenedor.style.display = 'block';
   }
 }
-
 
 // 🧼 Limpieza silenciosa de duplicados
 function limpiarDuplicados(palabras) {
@@ -277,4 +284,3 @@ function mostrarBotonVolver(mostrar) {
     };
   }
 }
-

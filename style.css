@@ -123,7 +123,7 @@ body {
   background-size: 25% 100%;
   animation: borde-arcoiris 0.75s linear infinite;
   animation-play-state: paused;
-  translate: -5% 0%;
+  transform: translateX(-5%);
   transition: translate 0.25s ease-out;
   z-index: 0;
 }
@@ -358,12 +358,6 @@ body.programacion {
   animation-delay: calc(var(--i) * 0.05s);
 }
 
-@keyframes aparecer {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 /* 🌬️ Frase poética que se desvanece */
 .frase-poetica {
@@ -386,3 +380,49 @@ body.programacion {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+/* 🌬️ Optimización de animaciones */
+.lista-palabras li {
+  will-change: opacity, transform;
+}
+
+/* 🧘‍♂️ Transición suave para detalles */
+.detalle-palabra {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* 🐢 Modo lento para conexiones débiles */
+body.modo-lento .lista-palabras li,
+body.modo-lento .detalle-palabra,
+body.modo-lento .secciones-enlinea section {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* 🌿 Transición poética al volver al inicio */
+#bienvenida {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: aparecer 0.6s ease forwards;
+}
+
+/* 🪞 Gesto de replegar el monte (botón volver) */
+.boton-volver {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.boton-volver.oculto {
+  transform: scale(0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* 🌈 Celebración de carga completa */
+#resultado.carga-completa::after {
+  content: "🌿 La página respira mejor ahora.";
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color: #2c3e50;
+  margin-top: 1em;
+  animation: desvanecer 6s ease forwards;
+}
+

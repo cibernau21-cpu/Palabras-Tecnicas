@@ -1707,13 +1707,6 @@
     "ejemplo": "Durante el setup del software, eligió el idioma y la carpeta de destino."
   },
   {
-    "palabra": "Sitio web",
-    "traduccion": "Site",
-    "categoria": "informatica",
-    "definicion": "Conjunto de páginas digitales interconectadas que se acceden mediante una dirección web.",
-    "ejemplo": "Visitó el sitio web del instituto para consultar el calendario académico."
-  },
-  {
     "palabra": "Archivo adjunto",
     "traduccion": "Attachment",
     "categoria": "informatica",
@@ -1882,20 +1875,6 @@
     "ejemplo": "Insertó una imagen en el informe para ilustrar el concepto."
   },
   {
-    "palabra": "función",
-    "traduccion": "function",
-    "categoria": "programacion",
-    "definicion": "Bloque de código reutilizable que realiza una tarea específica y se define con la palabra clave 'def' en Python.",
-    "ejemplo": "def saludar(): print('Hola mundo')"
-  },
-  {
-    "palabra": "clase",
-    "traduccion": "class",
-    "categoria":"programacion",
-    "definicion": "Plantilla para crear objetos que encapsulan datos y comportamientos en Python.",
-    "ejemplo": "class Persona: pass"
-  },
-  {
     "palabra": "diccionario",
     "traduccion": "dictionary",
     "categoria":"programacion",
@@ -1903,7 +1882,7 @@
     "ejemplo": "usuario = { 'nombre': 'Ana', 'edad': 25 }"
   },
   {
-    "palabra": "lista",
+    "palabra": "Lista",
     "traduccion": "list",
     "categoria":"programacion",
     "definicion": "Colección ordenada y mutable de elementos en Python.",
@@ -1915,13 +1894,6 @@
     "categoria": "programacion",
     "definicion": "Colección ordenada e inmutable de elementos en Python.",
     "ejemplo": "coordenadas = (10, 20)"
-  },
-  {
-    "palabra": "condicional",
-    "traduccion": "conditional",
-    "categoria":"programacion",
-    "definicion": "Estructura que ejecuta un bloque de código si se cumple una condición lógica.",
-    "ejemplo": "if x > 0: print('Positivo')"
   },
   {
     "palabra": "módulo",
