@@ -6,8 +6,19 @@
   <meta name="description" content="Diccionario técnico colaborativo con definiciones claras, ejemplos y traducciones sobre programación, informática y arquitectura.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+</script>
 </head>
 <body>
+
+ <div id="pantalla-carga">
+  <img src="assets/cargando-cocodrilo.png" alt="Cargando..." class="cocodrilo-carga">
+  <p class="texto-carga">🐊 El saber está despertando en el monte…</p>
+</div>
 
   <!-- ℹ️ Botón de presentación -->
   <div class="boton-presentacion-container">

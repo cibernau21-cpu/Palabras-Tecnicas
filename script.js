@@ -339,3 +339,6 @@ function pronunciarPalabra(palabra, idioma = 'es') {
   resultado.classList.add('ritual-sonora');
   setTimeout(() => resultado.classList.remove('ritual-sonora'), 2000);
 }
+window.onload = function() {
+  document.getElementById('pantalla-carga').style.display = 'none';
+};
