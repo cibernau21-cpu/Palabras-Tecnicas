@@ -357,7 +357,7 @@
     "ejemplo": "La fuente del texto puede cambiarse desde el menú de formato."
   },
   {
-    "palabra": "Hardware",
+    "palabra": "Soporte fisico",
     "traduccion": "Hardware",
     "categoria": "informatica",
     "definicion": "Conjunto de componentes físicos que conforman un sistema informático.",
@@ -776,7 +776,7 @@
     "ejemplo": "fetch devuelve una promesa que se resuelve cuando llegan los datos."
   },
   {
-    "palabra": "Callback",
+    "palabra": "Llamar de vuelta",
     "traduccion": "callback",
     "categoria": "programacion",
     "definicion": "Función que se pasa como argumento a otra y se ejecuta después de completar una tarea.",
@@ -853,7 +853,7 @@
     "ejemplo": "Una cola gestiona las tareas pendientes en un sistema operativo."
   },
   {
-    "palabra": "árbol binario",
+    "palabra": "Arbol binario",
     "traduccion": "binary tree",
     "categoria": "programacion",
     "definicion": "Estructura jerárquica donde cada nodo tiene como máximo dos hijos.",
@@ -874,7 +874,7 @@
     "ejemplo": "Una tabla hash permite acceder rápidamente a datos por su clave."
   },
   {
-    "palabra": "Heap",
+    "palabra": "Monton",
     "traduccion": "heap",
     "categoria": "programacion",
     "definicion": "Árbol especializado que mantiene el orden de prioridad entre sus elementos.",
@@ -1035,18 +1035,11 @@
     "ejemplo": "El software de edición permite modificar imágenes digitalmente."
   },
   {
-    "palabra": "Framework",
-    "traduccion": "Marco de trabajo",
+    "palabra": "Marco de trabajo",
+    "traduccion": "Framework",
     "categoria": "programacion",
     "definicion": "Estructura reutilizable que facilita el desarrollo de software.",
     "ejemplo": "React es un framework popular para construir interfaces web."
-  },
-  {
-    "palabra": "Database",
-    "traduccion": "Base de datos",
-    "categoria": "programacion",
-    "definicion": "Sistema que almacena y organiza información digital.",
-    "ejemplo": "La base de datos guarda los registros de los usuarios."
   },
   {
     "palabra": "SQL",
@@ -1077,18 +1070,11 @@
     "ejemplo": "El backend gestiona las solicitudes y conecta con la base de datos."
   },
   {
-    "palabra": "Bug",
-    "traduccion": "Error",
+    "palabra": "Error",
+    "traduccion": "Bug",
     "categoria": "programacion",
     "definicion": "Fallo o comportamiento inesperado en el código.",
     "ejemplo": "Un bug impedía que el formulario se enviara correctamente."
-  },
-  {
-    "palabra": "Debugging",
-    "traduccion": "Depuración",
-    "categoria": "programacion",
-    "definicion": "Proceso de identificar y corregir errores en el código.",
-    "ejemplo": "El equipo pasó horas haciendo debugging para resolver el problema."
   },
   {
     "palabra": "Testing",
@@ -1098,18 +1084,11 @@
     "ejemplo": "Las pruebas unitarias verifican que cada función funcione como se espera."
   },
   {
-    "palabra": "Deployment",
-    "traduccion": "Despliegue",
+    "palabra": "Despliegue",
+    "traduccion": "Deployment",
     "categoria": "programacion",
     "definicion": "Proceso de publicar una aplicación para que esté disponible al público.",
     "ejemplo": "El despliegue se realizó en un servidor de producción."
-  },
-  {
-    "palabra": "Cybersecurity",
-    "traduccion": "Ciberseguridad",
-    "categoria": "programacion",
-    "definicion": "Prácticas para proteger sistemas y datos digitales.",
-    "ejemplo": "La ciberseguridad previene ataques como el phishing y el malware."
   },
   {
     "palabra": "Script",
@@ -1357,14 +1336,14 @@
     "ejemplo": "Abrí una nueva ventana para ver el documento sin cerrar el navegador."
   },
   {
-    "palabra": "Webcam",
+    "palabra": "Camara web",
     "categoria": "arquitectura",
     "traduccion": "Webcam",
     "definicion": "Dispositivo de entrada que captura imágenes o video en tiempo real, generalmente conectado a una computadora.",
     "ejemplo": "La clase virtual se transmitió en vivo gracias a la webcam."
   },
   {
-    "palabra": "Wi-Fi",
+    "palabra": "WiFi",
     "categoria": "informatica",
     "traduccion": "Wi-Fi",
     "definicion": "Tecnología inalámbrica que permite la conexión a redes de datos sin cables físicos.",
@@ -1644,22 +1623,22 @@
     "ejemplo": "El analista funcional documentó los procesos del usuario para que el equipo pudiera modelarlos."
   },
   {
-    "palabra": "Cookie",
-    "traduccion": "Archivo de seguimiento",
+    "palabra": "Archivo de seguimiento",
+    "traduccion": "Cookie",
     "categoria": "informatica",
     "definicion": "Archivo pequeño que un sitio web guarda en el navegador del usuario para recordar información entre sesiones.",
     "ejemplo": "El sitio usó una cookie para recordar tu idioma preferido."
   },
   {
-    "palabra": "Cover",
-    "traduccion": "Imagen de portada",
+    "palabra": "Imagen de portada",
+    "traduccion": "Cover",
     "categoria": "informatica",
     "definicion": "Imagen o diseño que se utiliza como portada visual en una interfaz digital, como un perfil o una presentación.",
     "ejemplo": "Cambió la cover de su perfil en la red social."
   },
   {
-    "palabra": "File transfer",
-    "traduccion": "Transferencia de archivos",
+    "palabra": "Transferencia de archivos",
+    "traduccion": "File transfer",
     "categoria": "informatica",
     "definicion": "Proceso de mover o copiar archivos de un dispositivo o sistema a otro, generalmente a través de una red.",
     "ejemplo": "Realizó una transferencia de archivos desde su computadora al servidor remoto."
@@ -1672,8 +1651,8 @@
     "ejemplo": "Un hacker ético ayudó a detectar vulnerabilidades en el sistema."
   },
   {
-    "palabra": "Home Page",
-    "traduccion": "Página de inicio",
+    "palabra": "Página de inicio",
+    "traduccion": "Home Page",
     "categoria": "informatica",
     "definicion": "Primera página que se muestra al ingresar a un sitio web, que suele contener enlaces a las secciones principales.",
     "ejemplo": "La página de inicio del diccionario muestra las categorías disponibles."
@@ -1749,21 +1728,21 @@
     "ejemplo": "Contrataron un servicio de hosting para subir el diccionario técnico al sitio institucional."
   },
   {
-    "palabra": "página web",
+    "palabra": "Página web",
     "traduccion": "Web page",
     "categoria": "informatica",
     "definicion": "Documento digital que forma parte de un sitio web y que puede contener texto, imágenes, enlaces y otros elementos interactivos.",
     "ejemplo": "La página web del glosario incluye categorías como programación e informática."
   },
   {
-    "palabra": "Password",
-    "traduccion": "Contraseña",
+    "palabra": "Contraseña",
+    "traduccion": "Password",
     "categoria": "informatica",
     "definicion": "Cadena de caracteres utilizada para verificar la identidad de un usuario y proteger el acceso a sistemas o servicios.",
     "ejemplo": "Ingresó su contraseña para acceder al correo institucional."
   },
   {
-    "palabra": "Bandwidth",
+    "palabra": "Ancho de banda",
     "traduccion": "Ancho de banda",
     "categoria": "informatica",
     "definicion": "Cantidad de datos que puede transmitirse por una red en un período determinado, generalmente medido en megabits por segundo (Mbps).",
@@ -1777,8 +1756,8 @@
     "ejemplo": "El filtro de spam bloqueó los correos sospechosos."
   },
   {
-    "palabra": "Reboot",
-    "traduccion": "Reiniciar",
+    "palabra": "Reiniciar",
+    "traduccion": "Reboot",
     "categoria": "informatica",
     "definicion": "Acción de apagar y volver a encender un sistema o dispositivo para restaurar su funcionamiento.",
     "ejemplo": "Tuvo que reiniciar la computadora para aplicar las actualizaciones."
@@ -1875,7 +1854,7 @@
     "ejemplo": "Insertó una imagen en el informe para ilustrar el concepto."
   },
   {
-    "palabra": "diccionario",
+    "palabra": "Diccionario",
     "traduccion": "dictionary",
     "categoria":"programacion",
     "definicion": "Estructura de datos que almacena pares clave-valor, similar a un objeto JSON.",
@@ -1889,31 +1868,52 @@
     "ejemplo": "numeros = [1, 2, 3, 4]"
   },
   {
-    "palabra": "tupla",
+    "palabra": "Tupla",
     "traduccion": "tuple",
     "categoria": "programacion",
     "definicion": "Colección ordenada e inmutable de elementos en Python.",
     "ejemplo": "coordenadas = (10, 20)"
   },
   {
-    "palabra": "módulo",
+    "palabra": "Módulo",
     "traduccion": "module",
     "categoria":"programacion",
     "definicion": "Archivo de Python que contiene funciones, clases o variables que pueden importarse en otros programas.",
     "ejemplo": "import math"
   },
   {
-    "palabra": "paquete",
+    "palabra": "Paquete",
     "traduccion": "package",
     "categoria":"programacion",
     "definicion": "Colección de módulos organizados en carpetas con un archivo __init__.py.",
     "ejemplo": "import numpy"
   },
   {
-    "palabra": "excepción",
+    "palabra": "Excepción",
     "traduccion": "exception",
     "categoria":"programacion",
     "definicion": "Error detectado durante la ejecución que puede manejarse con try/except.",
     "ejemplo": "try: x = 1/0 except ZeroDivisionError: print('Error')"
+  },
+  {
+    "palabra": "Heurística",
+    "traduccion": "Heuristic",
+    "definicion": "Método para resolver problemas mediante aproximaciones prácticas.",
+    "ejemplo": "Usamos una heurística para encontrar la mejor ruta.",
+    "categoria": "Informática"
+  },
+  {
+    "palabra": "Compilar",
+    "traduccion": "Compile",
+    "definicion": "Transformar código fuente en ejecutable.",
+    "ejemplo": "Compilamos el programa antes de ejecutarlo.",
+    "categoria": "Programación"
+  },
+  {
+    "palabra": "Símbolo",
+    "traduccion": "Symbol",
+    "definicion": "Elemento que representa una idea, emoción o concepto más allá de su forma.",
+    "ejemplo": "El verde inglés es símbolo de lo institucional en nuestro glosario.",
+    "categoria": "Poética técnica"
   }
 ]

@@ -74,6 +74,25 @@ function inicializarBuscador() {
   buscador.addEventListener('input', debounce(function () {
     const texto = this.value.trim().toLowerCase();
     sugerencias.innerHTML = '';
+      buscador.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      const termino = buscador.value.trim().toLowerCase();
+      if (termino) {
+        const resultado = palabrasFiltradas.find(p =>
+          p.palabra.toLowerCase() === termino || p.traduccion.toLowerCase() === termino
+        );
+        if (resultado) {
+          mostrarPalabras([resultado]);
+          sugerencias.innerHTML = '';
+        } else {
+          document.getElementById('resultado').innerHTML = `
+            <p class="frase-poetica">🌿 El monte no conoce esa palabra aún.</p>
+          `;
+          sugerencias.innerHTML = '';
+        }
+      }
+    }
+  });
 
     if (texto === '') {
       document.getElementById('resultado').innerHTML = '';
@@ -176,11 +195,19 @@ function mostrarPalabras(lista) {
     entrada.className = 'entrada-palabra';
 
     entrada.innerHTML = `
-      <p><span class="bandera">🇪🇸</span> <strong class="palabra-es">${p.palabra}</strong></p>
-      <p><span class="bandera">🇬🇧</span> <em class="palabra-en">${p.traduccion}</em></p>
-      <p class="definicion">${p.definicion}</p>
-      <p class="ejemplo"><strong>Ejemplo:</strong> ${p.ejemplo}</p>
-    `;
+  <p>
+    <span class="bandera">🇪🇸</span>
+    <strong class="palabra-es">${p.palabra}</strong>
+    <button class="boton-audio" onclick="pronunciarPalabra('${p.palabra}', 'es')">🔊</button>
+  </p>
+  <p>
+    <span class="bandera">🇬🇧</span>
+    <em class="palabra-en">${p.traduccion}</em>
+    <button class="boton-audio" onclick="pronunciarPalabra('${p.traduccion}', 'en')">🔊</button>
+  </p>
+  <p class="definicion">${p.definicion}</p>
+  <p class="ejemplo"><strong>Ejemplo:</strong> ${p.ejemplo}</p>
+`;
 
     contenedor.appendChild(entrada);
   });
@@ -283,4 +310,32 @@ function mostrarBotonVolver(mostrar) {
       history.pushState({}, '', '#inicio');
     };
   }
+}
+function pronunciarPalabra(palabra, idioma = 'es') {
+  speechSynthesis.cancel(); // Detiene cualquier voz anterior
+
+  const voz = new SpeechSynthesisUtterance(palabra);
+  voz.lang = idioma === 'en' ? 'en-US' : 'es-AR';
+  voz.rate = 0.9;
+  voz.pitch = 1.1;
+
+  // Detectar qué botón fue presionado
+  const botones = document.querySelectorAll('.boton-audio');
+  botones.forEach(b => b.classList.remove('activo')); // limpiar otros
+
+  // Activar el botón actual
+  const evento = event.currentTarget;
+  evento.classList.add('activo');
+
+  // Cuando termina la voz, desactivar el botón
+  voz.onend = () => {
+    evento.classList.remove('activo');
+  };
+
+  speechSynthesis.speak(voz);
+
+  // Ritual visual en el contenedor
+  const resultado = document.getElementById('resultado');
+  resultado.classList.add('ritual-sonora');
+  setTimeout(() => resultado.classList.remove('ritual-sonora'), 2000);
 }

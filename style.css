@@ -425,4 +425,25 @@ body.modo-lento .secciones-enlinea section {
   margin-top: 1em;
   animation: desvanecer 6s ease forwards;
 }
-
+.boton-audio {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: 0.5em;
+  color: #006400; /* verde inglés */
+}
+.boton-audio:hover {
+  color: #e6c200; /* dorado ceremonial */
+}
+.ritual-sonora {
+  background-color: #fff8dc;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+  transition: background-color 1s ease, box-shadow 1s ease;
+}
+.boton-audio.activo {
+  color: #00ff15; /* verde ceremonial */
+  text-shadow: 0 0 8px rgba(0, 255, 21, 0.8);
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
