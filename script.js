@@ -198,12 +198,12 @@ function mostrarPalabras(lista) {
   <p>
     <span class="bandera">🇪🇸</span>
     <strong class="palabra-es">${p.palabra}</strong>
-    <button class="boton-audio" onclick="pronunciarPalabra('${p.palabra}', 'es')">🔊</button>
+    <button class="boton-audio" onclick="pronunciarPalabra('${p.palabra}', 'es' , event)">🔊</button>
   </p>
   <p>
     <span class="bandera">🇬🇧</span>
     <em class="palabra-en">${p.traduccion}</em>
-    <button class="boton-audio" onclick="pronunciarPalabra('${p.traduccion}', 'en')">🔊</button>
+    <button class="boton-audio" onclick="pronunciarPalabra('${p.traduccion}', 'en', event)">🔊</button>
   </p>
   <p class="definicion">${p.definicion}</p>
   <p class="ejemplo"><strong>Ejemplo:</strong> ${p.ejemplo}</p>
@@ -311,7 +311,7 @@ function mostrarBotonVolver(mostrar) {
     };
   }
 }
-function pronunciarPalabra(palabra, idioma = 'es') {
+function pronunciarPalabra(palabra, idioma = 'es', event) {
   speechSynthesis.cancel(); // Detiene cualquier voz anterior
 
   const voz = new SpeechSynthesisUtterance(palabra);
