@@ -447,3 +447,27 @@ body.modo-lento .secciones-enlinea section {
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
+.apk-section {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-left: 4px solid #006400; /* verde inglés */
+  border-radius: 8px;
+}
+
+.apk-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #006400;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.apk-link:hover {
+  background-color: #228B22;
+}
